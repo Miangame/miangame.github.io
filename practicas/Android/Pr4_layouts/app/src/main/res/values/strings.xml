@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pr4_layouts</string>
+    <string name="texto">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa cum distinctio,
+        eius enim et, explicabo impedit molestiae mollitia possimus, soluta tempore tenetur unde!
+        A accusantium illum iusto quae tempore!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa cum distinctio,
+        eius enim et, explicabo impedit molestiae mollitia possimus, soluta tempore
+    </string>
+</resources>
