@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo 4 de canvas</title>
+
+	<script type="text/javascript">
+
+		window.onload = function () {
+
+			//Recibimos o recogemos el elemento canvas
+			var contexto = cargaContextoCanvas("micanvas");
+
+
+			if (contexto) {
+				
+				setInterval(function() {
+					for (let i = 0; i <= aleatorio(0, 2000); i+=aleatorio(10,50)) {
+						for (let j = 0; j <= aleatorio(0, 2000); j+=aleatorio(10,50)) {
+							contexto.fillStyle = colorAleatorio();
+							contexto.fillRect(aleatorio(1,i), aleatorio(1,j), aleatorio(1,5), aleatorio(1,5));
+						}
+					}
+				} , 5);
+			
+			}
+		}
+
+		//Recibe un identificador del elemento canvas y carga el canvas
+		//Devueve el contexto del canvas o FALSE si no ha podido conseguise
+		function cargaContextoCanvas(idCanvas){
+			var elemento = document.getElementById(idCanvas);
+			if(elemento && elemento.getContext){
+				var contexto = elemento.getContext("2d");
+				if(contexto){
+					return contexto;
+				}
+			}
+			return FALSE;
+		}
+
+		function aleatorio(inferior, superior) {
+			let numPosibilidades = superior - inferior;
+
+			let aleat = Math.floor(Math.random() * numPosibilidades);
+
+			return parseInt(inferior) + aleat;
+
+		} 
+
+		function colorAleatorio() {
+			return "rgb(" + aleatorio(0,255) + ", " + aleatorio(0, 255) + ", " + aleatorio(0, 255) + ")";
+		}
+</script>
+</head>
+<body>
+	<canvas id="micanvas" width="2000px" height="2000px">
+		No soporta la API html5 de canvas
+	</canvas>
+</body>
+</html>

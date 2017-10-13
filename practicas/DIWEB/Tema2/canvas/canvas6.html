@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo 6 de canvas</title>
+
+	<script type="text/javascript">
+
+		window.onload = function () {
+
+			//Recibimos o recogemos el elemento canvas
+			var contexto = cargaContextoCanvas("micanvas");
+
+
+			if (contexto) {
+				contexto.beginPath();
+				contexto.moveTo(1,1);
+				for (let i = 1; i <= 700; i+=5) {
+					if (i%2 != 0) {
+						contexto.lineTo(i+5, i);
+					} else {
+						contexto.lineTo(i, i+5);
+					}
+				}
+				contexto.lineTo(1, 700);
+				contexto.closePath();
+				contexto.stroke();
+			}
+		}
+
+		//Recibe un identificador del elemento canvas y carga el canvas
+		//Devueve el contexto del canvas o FALSE si no ha podido conseguise
+		function cargaContextoCanvas(idCanvas){
+			var elemento = document.getElementById(idCanvas);
+			if(elemento && elemento.getContext){
+				var contexto = elemento.getContext("2d");
+				if(contexto){
+					return contexto;
+				}
+			}
+			return FALSE;
+		}
+
+</script>
+</head>
+<body>
+	<canvas id="micanvas" width="800px" height="800px">
+		No soporta la API html5 de canvas
+	</canvas>
+</body>
+</html>
