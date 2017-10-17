@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Ejemplo 6 de canvas</title>
+	<title>Ejemplo 7 de canvas</title>
 
 	<script type="text/javascript">
 
@@ -15,17 +15,15 @@
 
 			if (contexto) {
 				contexto.beginPath();
-				contexto.moveTo(1, 1);
-				for (let i = 1; i <= 700; i += 5) {
-					if (i % 2 != 0) {
-						contexto.lineTo(i + 5, i);
-					} else {
-						contexto.lineTo(i, i + 5);
-					}
-				}
-				contexto.lineTo(1, 700);
-				contexto.closePath();
-				contexto.stroke();
+				contexto.arc(75, 75, 60, Math.PI, Math.PI*0.5, false);
+				contexto.arc(75, 75, 40, Math.PI*0.5, Math.PI, false);
+                contexto.fill();
+
+                contexto.beginPath();
+                contexto.fillStyle = "orange";
+                contexto.arc(75, 75, 15, 0, Math.PI*2, false);
+                contexto.fill();
+
 			}
 		}
 
