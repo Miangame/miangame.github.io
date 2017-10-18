@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.miguel.sumarnumeros.MainActivity">
+
+    <GridLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número 1"
+            android:id="@+id/textView1"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/numero1"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número 2"
+            android:id="@+id/textView2"
+            android:layout_column="0"
+            android:layout_row="2" />
+
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/numero2"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:id="@+id/textViewResultado"
+            android:layout_column="0"
+            android:layout_row="4" />
+
+        <Button
+            android:id="@+id/botonSuma"
+            android:text="Suma"
+            android:layout_column="1"
+            android:layout_row="5"/>
+    </GridLayout>
+
+
+
+</RelativeLayout>
