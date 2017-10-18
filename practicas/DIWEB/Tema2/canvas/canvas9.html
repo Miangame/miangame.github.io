@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo 9 de canvas</title>
+
+    <script type="text/javascript">
+
+        window.onload = function () {
+
+            //Recibimos o recogemos el elemento canvas
+            var contexto = cargaContextoCanvas("micanvas");
+
+
+            if (contexto) {
+                
+                //Dibujo la tarjeta
+                contexto.fillStyle = 'rgb(255,0,0)';
+                contexto.fillRect(0, 0, 300, 200);
+                contexto.strokeRect(0, 0, 300, 200);
+
+                contexto.fillStyle = "white";
+                contexto.fillRect(10, 60, 280, 130);
+                contexto.strokeStyle = 'rgb(128, 128, 128)';
+                contexto.strokeRect(10, 60, 280, 130);
+
+                //Dibujo el texto
+                contexto.font = "bold 1.8em sans-serif";
+                contexto.fillText("Hola mi nombre es", 20, 40);
+                contexto.fillStyle = "black";
+                contexto.textAlign = "center";
+                contexto.font = "bold 90px Verdana";
+                contexto.fillText("Miguel", 150, 150);
+            }
+        }
+
+        //Recibe un identificador del elemento canvas y carga el canvas
+        //Devueve el contexto del canvas o FALSE si no ha podido conseguise
+        function cargaContextoCanvas(idCanvas) {
+            var elemento = document.getElementById(idCanvas);
+            if (elemento && elemento.getContext) {
+                var contexto = elemento.getContext("2d");
+                if (contexto) {
+                    return contexto;
+                }
+            }
+            return FALSE;
+        }
+
+    </script>
+</head>
+
+<body>
+    <canvas id="micanvas" width="800px" height="800px">
+        No soporta la API html5 de canvas
+    </canvas>
+</body>
+
+</html>

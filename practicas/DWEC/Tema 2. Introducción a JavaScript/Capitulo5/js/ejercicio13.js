@@ -8,13 +8,16 @@
  * @author Miguel Ángel Gavilán Merino
  */
 
-{
-    function anade() {
-        let lista = document.getElementById("lista");
-        let nodo = document.createElement("li");
 
-        nodo.appendChild(document.createTextNode("Nodo nuevo"));
+let contador = 1;
 
-        lista.appendChild(nodo);
-    }
+let lista = document.getElementById("lista");
+
+let anade = function () {
+
+    let nodo = document.createElement("li");
+
+    nodo.appendChild(document.createTextNode("Nodo nuevo " + contador++));
+
+    lista.appendChild(nodo);
 }

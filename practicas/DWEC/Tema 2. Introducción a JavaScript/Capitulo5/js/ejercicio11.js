@@ -33,7 +33,7 @@
 	}
 
 	crearElemento("Número de enlaces: " + numEnlaces.length);
-	crearElemento("Dirección del penúltimo enlace: " + numEnlaces[numEnlaces.length - 2]);
+	crearElemento("Dirección del penúltimo enlace: " + numEnlaces[numEnlaces.length - 2].href);
 	crearElemento("El número de enlaces que apuntan a http://prueba es: " + contador);
 	crearElemento("Número de enlaces del tercer nodo: " + numEnlacesParrafo.length);
 }	

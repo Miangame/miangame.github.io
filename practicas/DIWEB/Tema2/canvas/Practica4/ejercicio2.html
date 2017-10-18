@@ -35,7 +35,6 @@
                 }
                 
                 setInterval(function () {
-
                     contexto.fillRect(i += 100, 820, 70, 20);
                     contexto.fillRect(i+25, 800, 20, 20);
                     
@@ -58,9 +57,7 @@
                 setInterval(function () {
                     contexto.fillRect(coordenada + 35, contador -= 20, 3, 20);
                     contexto.clearRect(coordenada + 35, contador + 20, 3, 20);
-                    if(contador>10){
-                        contexto.clearRect(10, 125,20, 20);
-                    }
+                    
                 }, 500);
             }
 

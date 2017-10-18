@@ -5,26 +5,25 @@
  * ven en el siguiente capítulo. En este ejercicio, sólo se debe saber que al pinchar sobre el enlace, se
  * ejecuta la función llamada muestra().
  */
-{
-	/**
-	 * Muestra el resto del texto y oculta el botón "seguir leyendo"
-	 */
-	function muestra() {
-		document.getElementById("adicional").className = "visible";
 
-		document.getElementById("enlace").className = "oculto";
+/**
+ * Muestra el resto del texto y oculta el botón "seguir leyendo"
+ */
+let muestra = function () {
+	document.getElementById("adicional").className = "visible";
 
-		document.getElementById("enlace2").className = "visible";
-	}
+	document.getElementById("enlace").className = "oculto";
 
-	/**
-	 * Oculta el texto y el botón "mostrar menos"
-	 */
-	function oculta() {
-		document.getElementById("adicional").className = "oculto";
+	document.getElementById("enlace2").className = "visible";
+}
 
-		document.getElementById("enlace").className = "visible";
+/**
+ * Oculta el texto y el botón "mostrar menos"
+ */
+let oculta = function () {
+	document.getElementById("adicional").className = "oculto";
 
-		document.getElementById("enlace2").className = "oculto";
-	}
+	document.getElementById("enlace").className = "visible";
+
+	document.getElementById("enlace2").className = "oculto";
 }

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miguel Ángel Gavilán Merino">
+    <title>Miguel Ángel Gavilán Merino</title>
+
+    <script type="text/javascript">
+
+        window.onload = function () {
+
+            //Recibimos o recogemos el elemento canvas
+            var contexto = cargaContextoCanvas("micanvas");
+
+            if (contexto) {
+                //Cuerpo casa
+                contexto.beginPath();
+                contexto.moveTo(800, 800);
+                contexto.lineTo(1200, 800);
+                contexto.lineTo(1200, 400);
+                contexto.lineTo(800, 400);
+                contexto.lineTo(800, 800);
+                contexto.stroke();
+
+                //Tejado
+                contexto.beginPath();
+                contexto.moveTo(800, 400);
+                contexto.lineTo(1000, 200);
+                contexto.lineTo(1200, 400);
+                contexto.stroke();
+
+                //Chimenea
+                contexto.beginPath();
+                contexto.moveTo(1100, 300);
+                contexto.lineTo(1100, 250);
+                contexto.lineTo(1140, 250);
+                contexto.lineTo(1140, 340);
+                contexto.stroke();
+
+                //ventanas
+                contexto.beginPath();
+                contexto.moveTo(850, 450);
+                contexto.lineTo(950, 450);
+                contexto.lineTo(950, 550);
+                contexto.lineTo(850, 550);
+                contexto.lineTo(850, 450);
+
+                contexto.moveTo(1050, 450);
+                contexto.lineTo(1150, 450);
+                contexto.lineTo(1150, 550);
+                contexto.lineTo(1050, 550);
+                contexto.lineTo(1050, 450);
+                contexto.stroke();
+
+                contexto.beginPath();
+                contexto.moveTo(1000,800);
+                contexto.lineTo(1000, 650);
+                contexto.lineTo(1040, 650);
+                contexto.lineTo(1040, 800);
+
+                contexto.moveTo(1000,650);
+                contexto.lineTo(960, 650);
+                contexto.lineTo(960, 800);
+                contexto.stroke();
+
+                let contador = 0;
+                let aux = 0;
+                let aux2 = 0;
+                setInterval(function () {
+                    let ejeX = aleatorio(1110, 1130);
+                    let ejeY = aleatorio(100, 240);
+                    contexto.fillRect(ejeX, ejeY, 5, 5);
+                    contador++;
+                    if (contador == 2) {
+                        contador = 0;
+                        contexto.clearRect(ejeX, ejeY, 5, 5);
+                    }
+                    aux = ejex;
+                    aux2 = ejeY;
+
+                }, 100);
+
+            }
+
+        }
+
+
+
+        //Recibe un identificador del elemento canvas y carga el canvas
+        //Devueve el contexto del canvas o FALSE si no ha podido conseguise
+        function cargaContextoCanvas(idCanvas) {
+            var elemento = document.getElementById(idCanvas);
+            if (elemento && elemento.getContext) {
+                var contexto = elemento.getContext("2d");
+                if (contexto) {
+                    return contexto;
+                }
+            }
+            return FALSE;
+        }
+
+        function aleatorio(inferior, superior) {
+            let numPosibilidades = superior - inferior;
+
+            let aleat = Math.floor(Math.random() * numPosibilidades);
+
+            return parseInt(inferior) + aleat;
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <canvas id="micanvas" width="1800" height="1800">
+        No soporta la API html5 de canvas
+    </canvas>
+</body>
+
+</html>
