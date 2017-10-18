@@ -7,7 +7,21 @@
  * primer enlace
  * 4. Cuando una sección se oculte, debe cambiar el mensaje del enlace asociado (pista:
  * propiedad innerHTML)
+ * 
+ * @author Miguel Ángel Gavilán Merino
  */
 
-function muestraOculta() {
+{
+    function muestraOculta(id) {
+        let elemento = document.getElementById('contenidos_' + id);
+        let enlace = document.getElementById('enlace_' + id);
+
+        if (elemento.style.display == "block" || elemento.style.display == "") {
+            elemento.style.display = "none";
+            enlace.innerHTML = 'Mostrar más';
+        } else {
+            elemento.style.display = "block";
+            enlace.innerHTML = 'Ocultar';
+        }
+    }
 }
