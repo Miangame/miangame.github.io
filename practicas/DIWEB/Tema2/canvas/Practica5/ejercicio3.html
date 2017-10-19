@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miguel Ángel Gavilán Merino">
+    <title>Miguel Ángel Gavilán Merino</title>
+
+    <script type="text/javascript">
+
+        window.onload = function () {
+            var hoja = document.getElementById("micanvas");
+            //Recibimos o recogemos el elemento canvas
+            var contexto = cargaContextoCanvas("micanvas");
+
+            if (contexto) {
+                //Cielo
+                contexto.fillStyle = "#B5CDFF";
+                contexto.fillRect(0, 0, 500, 300);
+
+                //Sol
+                contexto.fillStyle = "#F8FF5A";
+                contexto.beginPath();
+                contexto.arc(290, 130, 54, 0, Math.PI * 2, true);
+                contexto.closePath;
+                contexto.fill();
+
+                //Nubes
+                contexto.fillStyle = "rgba(232,236,247,0.5)";
+                contexto.beginPath();
+                contexto.arc(10, 200, 80, 0, Math.PI * 2, true);
+                contexto.arc(88, 220, 46, 0, Math.PI * 2, true);
+                contexto.arc(154, 199, 30, 0, Math.PI * 2, true);
+                contexto.arc(232, 210, 62, 0, Math.PI * 2, true);
+                contexto.arc(320, 205, 25, 0, Math.PI * 2, true);
+                contexto.arc(380, 200, 44, 0, Math.PI * 2, true);
+                contexto.arc(442, 208, 23, 0, Math.PI * 2, true);
+                contexto.arc(498, 200, 41, 0, Math.PI * 2, true);
+                contexto.closePath;
+                contexto.fill();
+
+                //Mar
+                var gr = contexto.createLinearGradient(0, 200, 0, 280);
+                gr.addColorStop(0, "#D3DEF3");
+                gr.addColorStop(1, "#0628A4");
+                contexto.fillStyle = gr;
+                contexto.fillRect(0, 200, 500, 300);
+
+                //Barco
+                contexto.beginPath();
+
+                contexto.beginPath();
+                contexto.fillStyle = "#3C3F09";
+                contexto.beginPath();
+                contexto.moveTo(300, 219);
+                contexto.lineTo(360, 219);
+                contexto.lineTo(364, 212);
+                contexto.lineTo(298, 214);
+                contexto.lineTo(300, 219);
+                contexto.fill();
+                contexto.fillStyle = "#867048";
+                contexto.beginPath();
+                contexto.moveTo(314, 205);
+                contexto.lineTo(330, 101);
+                contexto.lineTo(334, 103);
+                contexto.lineTo(322, 204);
+                contexto.fill();
+                contexto.fillStyle = "rgba(210,151,50,0.6)";
+                contexto.beginPath();
+                contexto.moveTo(333, 105);
+                contexto.lineTo(378, 194);
+                contexto.lineTo(322, 188);
+                contexto.lineTo(333, 105);
+                contexto.closePath;
+                contexto.fill();
+            }
+
+            //Recibe un identificador del elemento canvas y carga el canvas
+            //Devueve el contexto del canvas o FALSE si no ha podido conseguise
+            function cargaContextoCanvas(idCanvas) {
+                var elemento = document.getElementById(idCanvas);
+                if (elemento && elemento.getContext) {
+                    var contexto = elemento.getContext("2d");
+                    if (contexto) {
+                        return contexto;
+                    }
+                }
+                return FALSE;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <canvas id="micanvas" width="800" height="800">
+        No soporta la API html5 de canvas
+    </canvas>
+</body>
+
+</html>

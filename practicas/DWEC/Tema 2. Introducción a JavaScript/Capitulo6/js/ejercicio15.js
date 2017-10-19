@@ -13,40 +13,40 @@
  */
 
 {
-    function informacion() {
-      let evento =  window.event;
-      switch(evento.type) {
-        case 'mousemove':
-          document.getElementById('info').style.backgroundColor = '#FFFFFF';
-          let xRelativa, yRelativa, xAbsoluta, yAbsoluta;
-            xAbsoluta = evento.pageX;
-            yAbsoluta = evento.pageY;
-            xRelativa = evento.clientX;
-            yRelativa = evento.clientY;
-          muestraInformacion(['Ratón', 'Navegador ['+xRelativa+', '+yRelativa+']', 'Pagina ['+xAbsoluta+', '+yAbsoluta+']']);
-          break;
-        case 'keypress':
-          document.getElementById('info').style.backgroundColor = '#CCE6FF';
-          let caracter = evento.charCode || evento.keyCode;
-          let letra = String.fromCharCode(caracter);
-          let codigo = letra.charCodeAt(0);
-          muestraInformacion(['Teclado', 'Carácter ['+letra+']', 'Código ['+codigo+']']);
-          break;
-        case 'click':
-          document.getElementById('info').style.backgroundColor = '#FFFFCC';
-          break;
-      }
+  let informacion = function (evento) {
+    //let evento =  window.event;
+    switch (evento.type) {
+      case 'mousemove':
+        info.style.backgroundColor = '#FFFFFF';
+        let xRelativa, yRelativa, xAbsoluta, yAbsoluta;
+        xAbsoluta = evento.pageX;
+        yAbsoluta = evento.pageY;
+        xRelativa = evento.clientX;
+        yRelativa = evento.clientY;
+        muestraInformacion(['Ratón', 'Navegador [' + xRelativa + ', ' + yRelativa + ']', 'Pagina [' + xAbsoluta + ', ' + yAbsoluta + ']']);
+        break;
+      case 'keypress':
+        info.style.backgroundColor = '#CCE6FF';
+        let caracter = evento.charCode || evento.keyCode;
+        let letra = String.fromCharCode(caracter);
+        let codigo = letra.charCodeAt(0);
+        muestraInformacion(['Teclado', 'Carácter [' + letra + ']', 'Código [' + codigo + ']']);
+        break;
+      case 'click':
+        info.style.backgroundColor = '#FFFFCC';
+        break;
     }
-     
-    function muestraInformacion(mensaje) {
-      document.getElementById("info").innerHTML = '<h1>'+mensaje[0]+'</h1>';
-      for(let i=1; i<mensaje.length; i++) {
-        document.getElementById("info").innerHTML += '<p>'+mensaje[i]+'</p>';
-      }
+  }
+
+  let muestraInformacion = function (mensaje) {
+    info.innerHTML = '<h1>' + mensaje[0] + '</h1>';
+    for (let i = 1; i < mensaje.length; i++) {
+      info.innerHTML += '<p>' + mensaje[i] + '</p>';
     }
-     
-    document.onmousemove = informacion;
-    document.onkeypress = informacion;
-    document.onclick = informacion;
+  }
+
+  document.onmousemove = informacion;
+  document.onkeypress = informacion;
+  document.onclick = informacion;
+  let info = document.getElementById('info');
 }
-     

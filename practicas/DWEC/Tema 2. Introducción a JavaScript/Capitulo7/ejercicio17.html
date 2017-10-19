@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Miguel Ángel Gavilán Merino">
+    <title>Ejercicio 17</title>
+
+    <script defer src="js/ejercicio17.js"></script>
+</head>
+<body>
+        <div id="info">Máximo 100 caracteres</div>
+        <textarea id="texto" onkeypress="return limita(event, 100);" onkeyup="actualizaInfo(100)" rows="6" cols="30"></textarea>
+</body>
+</html>
