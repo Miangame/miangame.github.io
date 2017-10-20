@@ -6,34 +6,29 @@
  * @author Miguel Ángel Gavilán Merino
  */
 {
-    let elemento = document.getElementById("texto");
+    const MAXIMO_CARACTERES = 100;
+
+    let elementoTexto = document.getElementById("texto");
     let info = document.getElementById("info");
 
-    function limita(evento, maximoCaracteres) {
+    let limita = function () {
 
-        let codigoCaracter = evento.charCode || evento.keyCode;
-        // Permitir utilizar las teclas con flecha horizontal
-        if (codigoCaracter == 37 || codigoCaracter == 39) {
-            return true;
-        }
-
-        // Permitir borrar con la tecla Backspace y con la tecla Supr.
-        if (codigoCaracter == 8 || codigoCaracter == 46) {
-            return true;
-        } else if (elemento.value.length >= maximoCaracteres) {
+        if (elementoTexto.value.length >= MAXIMO_CARACTERES)
             return false;
-        } else {
-            return true;
-        }
+
+        return true
     }
 
-    function actualizaInfo(maximoCaracteres) {
+    let actualizaInfo = function () {
 
-        if (elemento.value.length >= maximoCaracteres) {
-            info.innerHTML = "Máximo " + maximoCaracteres + " caracteres";
+        if (elementoTexto.value.length >= MAXIMO_CARACTERES) {
+            info.innerHTML = "Máximo " + MAXIMO_CARACTERES + " caracteres";
         }
         else {
-            info.innerHTML = "Puedes escribir hasta " + (maximoCaracteres - elemento.value.length) + " caracteres adicionales";
+            info.innerHTML = "Puedes escribir hasta " + (MAXIMO_CARACTERES - elementoTexto.value.length) + " caracteres adicionales";
         }
     }
+
+    elementoTexto.onkeypress = limita;
+    elementoTexto.onkeyup = actualizaInfo;
 }

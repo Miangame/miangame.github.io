@@ -1,0 +1,57 @@
+
+header{
+    text-align: center;
+    border: 1px solid;
+}
+
+#menu{
+    text-align: center;
+    border: 1px solid;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+main{
+    border: 1px solid;
+    display: inline-block;
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.cabeceraNoticia{
+    border: 1px solid;
+    margin: 0;
+}
+
+.noticia{
+    border: 1px solid;
+    margin: 15px;
+}
+
+aside{
+    display: inline-block;
+    width: 19.7%;
+    float: right;
+}
+
+.social{
+    border: 1px solid;
+    padding: 10px 10px 90px 10px;
+    margin: 30px;
+}
+
+footer{
+    border: 1px solid;
+    text-align: center;
+    height: 80px;
+}
