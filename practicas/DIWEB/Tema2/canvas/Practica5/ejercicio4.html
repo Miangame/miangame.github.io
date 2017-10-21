@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miguel Ángel Gavilán Merino">
+    <title>Miguel Ángel Gavilán Merino</title>
+
+    <style>
+        canvas{
+            background-image: url("imagenes/universo.jpg");
+            background-repeat: no-repeat;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        window.onload = function () {
+
+            //Recibimos o recogemos el elemento canvas
+            let contexto = cargaContextoCanvas("micanvas");
+
+            if (contexto) {
+                let sun = new Image();
+                let moon = new Image();
+                let earth = new Image();
+
+                sun.src = 'imagenes/sun.png';
+                moon.src = 'imagenes/moon.png';
+                earth.src = 'imagenes/earth.png';
+
+
+
+                setInterval(function() {
+
+                    contexto.globalCompositeOperation = 'destination-over';
+                    contexto.clearRect(0, 0, 400, 400); // clear canvas
+
+                    
+                    contexto.save();
+                    contexto.translate(150, 150);
+
+                    // La Tierra
+                    let time = new Date();
+                    contexto.rotate(((2 * Math.PI) / 60) * time.getSeconds() + ((2 * Math.PI) / 60000) * time.getMilliseconds());
+                    contexto.translate(105, 0);
+                    contexto.drawImage(earth, -12, -12, 50, 50);
+
+                    // Luna
+                    contexto.rotate(((2 * Math.PI) / 6) * time.getSeconds() + ((2 * Math.PI) / 6000) * time.getMilliseconds());
+                    contexto.translate(0, 28.5);
+                    contexto.drawImage(moon, -3.5, -3.5, 30, 20);
+                    
+
+                    contexto.restore();
+
+                    //Órbita de la Tierra
+                    contexto.beginPath();
+                    contexto.arc(150, 150, 115, 0, Math.PI * 2, false); 
+                    contexto.stroke();
+
+                    //Sol
+                    contexto.drawImage(sun, 100, 100, 100, 100);
+
+                
+                },100);
+                
+            }
+        }
+
+        //Recibe un identificador del elemento canvas y carga el canvas
+        //Devueve el contexto del canvas o FALSE si no ha podido conseguise
+        function cargaContextoCanvas(idCanvas) {
+            let elemento = document.getElementById(idCanvas);
+            if (elemento && elemento.getContext) {
+                let contexto = elemento.getContext("2d");
+                if (contexto) {
+                    return contexto;
+                }
+            }
+            return FALSE;
+        }
+
+    </script>
+</head>
+
+<body>
+    <canvas id="micanvas" width="400" height="400">
+        No soporta la API html5 de canvas
+    </canvas>
+</body>
+
+</html>

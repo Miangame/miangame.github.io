@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Un Café</string>
+    <string name="textoNombre">Nombre</string>
+    <string name="textoToppings">TOPPINGS</string>
+    <string name="textoCrema">Crema</string>
+    <string name="textoChocolate">Chocolate</string>
+    <string name="textoCantidad">Cantidad</string>
+</resources>

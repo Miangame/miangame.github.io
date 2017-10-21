@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textoNombre" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoToppings" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <CheckBox
+            android:id="@+id/crema"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <TextView
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="@string/textoCrema" />
+
+        <CheckBox
+            android:id="@+id/chocolate"
+            android:layout_column="0"
+            android:layout_row="1" />
+
+        <TextView
+            android:layout_column="1"
+            android:layout_row="1"
+            android:text="@string/textoChocolate" />
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoCantidad"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/botonMenos"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/contador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+
+        <Button
+            android:id="@+id/botonMas"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botonPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"/>
+</LinearLayout>
+
