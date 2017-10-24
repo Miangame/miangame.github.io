@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cancha">
+
+
+    <!-- LOCAL -->
+    <TextView
+        android:id="@+id/textoLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/white"
+        android:text="LOCAL"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/contadorLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textoLocal"
+        android:layout_alignStart="@+id/textoLocal"
+        android:layout_below="@+id/textoLocal"
+        android:background="@color/black"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/resetLocal"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/button2Local"
+        android:layout_below="@+id/contadorLocal"
+        android:background="@drawable/reset" />
+
+
+    <Button
+        android:id="@+id/button1Local"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="51dp"
+        android:layout_toStartOf="@+id/contadorLocal"
+        android:background="@drawable/balon"
+        android:text="+1"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button2Local"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_toStartOf="@+id/button3Local"
+        android:background="@drawable/balon"
+        android:text="+2"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button3Local"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/contadorLocal"
+        android:background="@drawable/balon"
+        android:text="+3"
+        android:textSize="30dp" />
+
+
+    <!--VISITANTE-->
+
+    <TextView
+        android:id="@+id/textoVisitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textoLocal"
+        android:layout_alignBottom="@+id/textoLocal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="66dp"
+        android:background="@color/white"
+        android:text="Visitante"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/contadorVisitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textoVisitante"
+        android:layout_alignStart="@+id/textoVisitante"
+        android:layout_below="@+id/textoVisitante"
+        android:background="@color/black"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/resetVisitante"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/button2Visitante"
+        android:layout_below="@+id/contadorVisitante"
+        android:background="@drawable/reset" />
+
+
+    <Button
+        android:id="@+id/button1Visitante"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/contadorVisitante"
+        android:background="@drawable/balon"
+        android:text="+1"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button2Visitante"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/button1Visitante"
+        android:background="@drawable/balon"
+        android:text="+2"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button3Visitante"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/contadorVisitante"
+        android:background="@drawable/balon"
+        android:text="+3"
+        android:textSize="30dp" />
+</RelativeLayout>
