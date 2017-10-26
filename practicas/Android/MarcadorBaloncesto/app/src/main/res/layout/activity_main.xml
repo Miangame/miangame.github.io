@@ -29,24 +29,24 @@
         android:background="@color/black"
         android:text="0"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/red"
         android:textSize="50dp" />
 
     <Button
-        android:id="@+id/resetLocal"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignEnd="@+id/button2Local"
-        android:layout_below="@+id/contadorLocal"
-        android:background="@drawable/reset" />
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Reiniciar partido"
+        android:background="@color/gray"
+        android:layout_above="@+id/buttonRestarVisitante"
+        android:layout_toEndOf="@+id/button3Local" />
 
 
     <Button
         android:id="@+id/button1Local"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="51dp"
+        android:layout_below="@+id/contadorLocal"
         android:layout_toStartOf="@+id/contadorLocal"
         android:background="@drawable/balon"
         android:text="+1"
@@ -54,10 +54,10 @@
 
     <Button
         android:id="@+id/button2Local"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="34dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/contadorLocal"
+        android:layout_marginEnd="36dp"
         android:layout_toStartOf="@+id/button3Local"
         android:background="@drawable/balon"
         android:text="+2"
@@ -67,11 +67,21 @@
         android:id="@+id/button3Local"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/contadorLocal"
         android:layout_toEndOf="@+id/contadorLocal"
         android:background="@drawable/balon"
         android:text="+3"
         android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/buttonRestarLocal"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/balon"
+        android:text="-1"
+        android:textSize="30dp"
+        android:layout_alignTop="@+id/textoLocal"
+        android:layout_toStartOf="@+id/contadorLocal" />
 
 
     <!--VISITANTE-->
@@ -99,23 +109,15 @@
         android:background="@color/black"
         android:text="0"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/red"
         android:textSize="50dp" />
-
-    <Button
-        android:id="@+id/resetVisitante"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignStart="@+id/button2Visitante"
-        android:layout_below="@+id/contadorVisitante"
-        android:background="@drawable/reset" />
 
 
     <Button
         android:id="@+id/button1Visitante"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/contadorVisitante"
         android:layout_toStartOf="@+id/contadorVisitante"
         android:background="@drawable/balon"
         android:text="+1"
@@ -123,11 +125,11 @@
 
     <Button
         android:id="@+id/button2Visitante"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_toEndOf="@+id/button1Visitante"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/contadorVisitante"
+        android:layout_marginEnd="50dp"
+        android:layout_toStartOf="@+id/button3Visitante"
         android:background="@drawable/balon"
         android:text="+2"
         android:textSize="30dp" />
@@ -136,9 +138,19 @@
         android:id="@+id/button3Visitante"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/contadorVisitante"
         android:layout_toEndOf="@+id/contadorVisitante"
         android:background="@drawable/balon"
         android:text="+3"
         android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/buttonRestarVisitante"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/balon"
+        android:text="-1"
+        android:textSize="30dp"
+        android:layout_alignTop="@+id/textoVisitante"
+        android:layout_toEndOf="@+id/contadorVisitante" />
 </RelativeLayout>

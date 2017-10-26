@@ -1,6 +1,8 @@
 package com.example.miguel.marcadorbaloncesto;
 
+import android.content.DialogInterface;
 import android.content.pm.ActivityInfo;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,14 +13,14 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView contadorLocal;
     private TextView contadorVisitante;
-    private Button botonResetLocal;
-    private Button botonResetVisitante;
+    private Button botonReset;
     private Button sumar1Local;
     private Button sumar2Local;
     private Button sumar3Local;
     private Button sumar1Visitante;
     private Button sumar2Visitante;
     private Button sumar3Visitante;
+    private Button botonRestarLocal, botonRestarVisitante;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,14 +30,15 @@ public class MainActivity extends AppCompatActivity {
 
         contadorLocal = (TextView) findViewById(R.id.contadorLocal);
         contadorVisitante = (TextView) findViewById(R.id.contadorVisitante);
-        botonResetLocal = (Button) findViewById(R.id.resetLocal);
-        botonResetVisitante = (Button) findViewById(R.id.resetVisitante);
+        botonReset = (Button) findViewById(R.id.reset);
         sumar1Local = (Button) findViewById(R.id.button1Local);
         sumar2Local = (Button) findViewById(R.id.button2Local);
         sumar3Local = (Button) findViewById(R.id.button3Local);
         sumar1Visitante = (Button) findViewById(R.id.button1Visitante);
         sumar2Visitante = (Button) findViewById(R.id.button2Visitante);
         sumar3Visitante = (Button) findViewById(R.id.button3Visitante);
+        botonRestarLocal = (Button) findViewById(R.id.buttonRestarLocal);
+        botonRestarVisitante = (Button) findViewById(R.id.buttonRestarVisitante);
 
         sumar1Local.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
@@ -72,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         sumar2Visitante.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 int contador = Integer.valueOf(contadorVisitante.getText().toString());
-                contador+=2;
+                contador += 2;
                 contadorVisitante.setText(String.valueOf(contador));
             }
         });
@@ -80,20 +83,55 @@ public class MainActivity extends AppCompatActivity {
         sumar3Visitante.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 int contador = Integer.valueOf(contadorVisitante.getText().toString());
-                contador+=3;
+                contador += 3;
                 contadorVisitante.setText(String.valueOf(contador));
             }
         });
 
-        botonResetLocal.setOnClickListener(new Button.OnClickListener() {
+
+        botonReset.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
-                contadorLocal.setText("0");
+                AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
+                builder.setMessage("¿Estás seguro que quieres empezar otro partido (se borraran los contadores)?");
+
+                builder.setPositiveButton("Continuar", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        contadorVisitante.setText("0");
+                        contadorLocal.setText("0");
+                    }
+                });
+                builder.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+
+                    }
+                });
+                AlertDialog dialog = builder.create();
+                builder.show();
+
+
+            }
+
+        });
+
+        botonRestarLocal.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                int contador = Integer.valueOf(contadorLocal.getText().toString());
+                if (contador <= 0) {
+                    return;
+                }
+                contador = contador - 1;
+                contadorLocal.setText(String.valueOf(contador));
             }
         });
 
-        botonResetVisitante.setOnClickListener(new Button.OnClickListener() {
+        botonRestarVisitante.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
-                contadorVisitante.setText("0");
+                int contador = Integer.valueOf(contadorVisitante.getText().toString());
+                if (contador <= 0) {
+                    return;
+                }
+                contador = contador - 1;
+                contadorVisitante.setText(String.valueOf(contador));
             }
         });
     }

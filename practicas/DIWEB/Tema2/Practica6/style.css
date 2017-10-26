@@ -30,7 +30,7 @@ header{
     text-decoration: none;
     font-size: 35px;
     padding: 10px;
-    color: rgb(0, 58, 250);
+    color: rgb(0, 242, 250);
 }
 
 main{
@@ -45,7 +45,7 @@ main{
 
 .noticia{
     margin: 15px;
-    background-color: #cfcbbe;
+    background-color: #bebebb;
     padding: 10px;
 }
 
