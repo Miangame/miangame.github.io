@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miguel Ángel Gavilán Merino">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 8</title>
+
+    <script defer src="js/ejercicio8.js"></script>
+</head>
+
+<body>
+    <noscript>El navegador no soporta javaScript</noscript>
+    <h1>Listado arrays en JavaScript. Miguel Ángel Gavilán Merino</h1>
+
+    <h3>8. Indica la diferencia entre los siguientes métodos, y demuestra su uso con algunos arrays: Array.prototype.forEach(),
+        Array.prototype.every(), Array.prototype.some() y Array.prototype.filter().</h3>
+
+    <p>
+        <h4>Array.prototype.forEach()</h4>
+        Recorre el array elemento a elemento para tratarlos individualmente.
+        <br/> Su uso sería el siguiente:
+        <ol>
+            <li>Creamos un array con algunos elementos: array = [0,1,2,3,4,5,6,7,8,9,10, "a"];
+            </li>
+            <li>Usamos el forEach de la siguiente forma:
+                <br/> array.forEach(valorElemento, indice, array){
+                <br/> ("Array[" + indice + "] = " + valorElemento);
+                <br/> }
+            </li>
+        </ol>
+
+        <h4>Array.prototype.every()</h4>
+        El método every comprueba si todos los elementos del array pasando una prueba para devolver true en caso afirmativo o false
+        en caso negativo.
+        <br/> Su uso sería el siguiente:
+        <ol>
+            <li>Creamos un array con algunos elementos: array = [0,1,2,3,4,5,6,7,8,9,10, "a"];
+            </li>
+            <li>Usamos el every de la siguiente forma:
+                <br/> (array.every(function(numero){return !isNaN(numero);}));
+                <br/> En este caso, nos devuelve false porque hay un string en el array.
+        </ol>
+
+        <h4>Array.prototype.some()</h4>
+        Es parecido al every, pero comprueba si hay algún elemento que cumpla una condición. En el momento que haya uno que lo cumpla,
+        ya devuelve true, y false en caso negative. Su uso sería el siguiente:
+        <ol>
+            <li>Creamos un array con algunos elementos: array = [0,1,2,3,4,5,6,7,8,9,10, "a"];
+            </li>
+            <li>Usamos el some de la siguiente forma:
+                <br/> (array.some(function(numero){return isNaN(numero);}));
+                <br/> En este caso, nos devuelve true porque con que exista un elemento de la matriz que no sea un número, ya
+                devuelve true. En nuestro caso, la "a" cumple con esta condición. }
+
+            </li>
+        </ol>
+
+        <h4>Array.prototype.filter()</h4>
+        Filtra elementos de un array según el "filtro" que lo pase y lo guarda en un nuevo array. Su uso sería el siguiente:
+        <ol>
+            <li>Creamos un array con algunos elementos: array = [0,1,2,3,4,5,6,7,8,9,10, "a"];
+            </li>
+            <li>Usamos el filter de la siguiente forma:
+                <br/> array.filter(function(numero){return numero
+                <4;}); </ol>
+    </p>
+
+    <br>
+    <h2>RESULTADOS:</h2>
+    <p id="parrafo"></p>
+</body>
+
+</html>

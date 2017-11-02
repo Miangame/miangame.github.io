@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miguel Ángel Gavilán Merino">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 3</title>
+
+    <script defer src="js/ejercicio3.js"></script>
+</head>
+
+<body>
+    <noscript>El navegador no soporta javaScript</noscript>
+    <h1>Listado arrays en JavaScript. Miguel Ángel Gavilán Merino</h1>
+    <h3>3. Indica la función que comprueba si un objeto es o no un Array. Demuestra su uso mediante un ejemplo.</h3>
+    <p>Para comprobar si un objeto es o no un Array necesitamos usar la función isArray(). Esta función nos devolverá true en
+        caso de ser un objeto de tipo Array o false en caso de no serlo.</p>
+
+    Ejemplo:
+    <br/> let coches = ["renault", "mercedes", "seat", "fiat"];
+    <br/> let cadena = new String("Hola a todos");
+    <br/>
+    <br/> ("¿coches es un array? : " + (Array.isArray(coches)));
+    <br/> ("¿cadena es un array? : " + (Array.isArray(cadena)));
+
+    <h2>RESULTADOS:</h2>
+    <p id="parrafo"></p>
+</body>
+
+</html>

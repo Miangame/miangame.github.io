@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miguel Ángel Gavilán Merino">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 1</title>
+
+    <script defer src="js/ejercicio1.js"></script>
+</head>
+
+<body>
+    <noscript>El navegador no soporta javaScript</noscript>
+    <h1>Listado de arrays en javaScript. Miguel Ángel Gavilán Merino</h1>
+    <h3>1.Indica los tres argumentos del método forEach a un array. Demuestra su uso mediante un ejemplo.</h3>
+    <p>Los tres argumentos del forEach son:
+        <ol>
+            <li>El valor del elemento</li>
+            <li>El índice del elemento</li>
+            <li>El array que está siendo recorrido</li>
+        </ol>
+        Su uso sería el siguiente:
+        <ol>
+            <li>Creamos un array con algunos elementos: array = [0,1,2,3,4];
+            </li>
+            <li>Usamos el forEach de la siguiente forma:
+                <br/> array.forEach(valorElemento, indice, array){
+                <br/> aniadeElemento("Array[" + indice + "] = " + elemento);
+                <br/> }
+            </li>
+        </ol>
+
+        <br>
+        <h2>RESULTADO:</h2>
+        <br>
+        <ul id="elementosArray">
+
+        </ul>
+    </p>
+</body>
+
+</html>

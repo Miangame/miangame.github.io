@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miguel Ángel Gavilán Merino">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 2</title>
+
+    <script defer src="js/ejercicio2.js"></script>
+</head>
+
+<body>
+    <noscript>El navegador no soporta javaScript</noscript>
+    <h1>Listado de arrays en javaScript. Miguel Ángel Gavilán Merino</h1>
+    <h3>2. Indica la utilidad del operador in con los arrays. Demuestra su uso mediante un ejemplo.</h3>
+
+    <p>El operador in devuelve true o false si la propiedad que estamos especificando está o no en el array. Cuando hablamos
+        de índices podemos comprobar si un índice está en el array o no. Si hablamos de arrays con propiedades, podemos comprobar
+        si dicho array posee esa propiedad.</p>
+
+    Ejemplo:
+    <br/> let coches = ["renault", "mercedes", "seat", "fiat"];
+    <br/> 0 in coches // true
+    <br/> 3 in coches // true
+    <br/> 6 in coches // false
+    <br/>
+    <br/> "length" in coches // true (es una propiedad que los Arrays poseen)
+    <br/>
+    <br/> let coche = {marca: "Seat", modelo: "Ibiza", matricula: "1234ABC"};
+    <br/> "marca" in coche // true
+    <br/> "modelo" in coche // true
+    <br/> "motor" in coche // false
+    <br/>
+
+    <h2>RESULTADOS:</h2>
+    <p id="parrafo"></p>
+</body>
+
+</html>
