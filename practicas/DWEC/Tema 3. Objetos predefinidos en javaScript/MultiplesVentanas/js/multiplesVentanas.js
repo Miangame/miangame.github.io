@@ -17,6 +17,7 @@
         for (let i = 0; i < 5; i++) {
             let newWindow = window.open('', '', 'width=200,height=200,top=' + (top += 20) + ',left=' + (left += 20) + '');
             newWindow.document.write("Ventana " + (i + 1) + "<br><input type='button' id='boton' value='cerrar' onclick=window.close();>");
+            newWindow.document.close();
         }
 
         top = 0;

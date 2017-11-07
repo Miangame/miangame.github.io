@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li{
+    *display: inline-block;
+    float: left;
+}
+
+nav ul li{
+    position: relative;
+}
+
+nav ul li a{
+    background: #0c9ba0;
+    color: #FFF;
+    display: block;
+    border: 1px solid;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background: #0fbfc6;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul li ul li ul{
+    right: -140px;
+    top: 0;
+}
+
+nav ul li .flecha{
+    font-size: 9px;
+    padding-left: 6px;
+    display: none;
+}
+
+nav ul li a:not(:last-child) .flecha{
+    display: inline;
+}

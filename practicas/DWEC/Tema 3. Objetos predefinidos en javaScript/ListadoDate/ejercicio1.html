@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Miguel Ángel Gavilán Merino">
+
+    <title>Ejercicio 1</title>
+
+    <script defer src="js/ejercicio1.js"></script>
+</head>
+
+<body>
+    <noscript>El navegador no soporta JavaScript</noscript>
+
+    <header>
+        <h1>Listado Date(). Miguel Ángel Gavilán Merino</h1>
+    </header>
+    <h3>1. ¿Cuántos constructores tiene el objeto predefinido Date()? Explícalos mediante ejemplos.</h3>
+    <p>
+        EL objeto predefinido Date() tiene 4 constructores
+        <ul>
+            <li>let d = new Date(); - Muestra la fecha actual con el horario GMT +0</li>
+            <li>let d = new Date(milisegundos); - Crea una fecha según los milisegundos pasados por parámetros. Esta cantidad
+                de milisegundos se le suma a una fecha inicial (año 1970) y se calcula la nueva fecha para mostrarnos una
+                actual. En nuestro caso hemos hecho: let dateMs = new Date(Date.now()); Date.now() devuelve el momento actual en milisegundos</li>
+            <li>let d = new Date(cadenaConFecha); - Crea una fecha según la cadena dada. En dicha cadena se especifica primero
+                el mes(en inglés), seguido del día, año, horas, minutos y segundos. En nuestro caso es: let dateString =
+                new Date("11/05/2017");</li>
+            <li>let d = new Date(año, mes, dia, horas, minutos, segundos, milisegundos); - En este último caso, le pasamos los
+                argumentos uno a uno para crear una fecha con dichos valores. Ejemplo: dateCompleto = new Date(2017, 11,
+                5, 0, 0, 0, 0);</li>
+        </ul>
+    </p>
+
+    <h2>Ejemplos:</h2>
+</body>
+
+</html>
