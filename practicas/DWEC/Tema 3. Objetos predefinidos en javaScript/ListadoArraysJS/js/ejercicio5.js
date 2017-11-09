@@ -9,6 +9,7 @@
 
     let creaArrayConArgumentos = function () {
         let arrayConArgumentos = [];
+
         for (let i = 0; i < arguments.length; i++)
             arrayConArgumentos.push(arguments[i]);
         return arrayConArgumentos;
