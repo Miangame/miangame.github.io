@@ -237,14 +237,17 @@
                 <p>Ejemplo:</p>
                 <div class="bloqueCodeAnimation">
                     div{ animation-timing-function: pulsacion ease;}
-                    <br> @keyframes pulsacion {
-                    <br> 0% { width: 50px; height:50px;}
-                    <br> 50% { width: 100px; height:100px; }
-                    <br> 100% { width: 50px; height:50px; }
+                    <br>@keyframes mymove {
+                    <br> from {left: 0px;}
+                    <br> to {left: 200px;}
                     <br> }
                     <br>
                 </div>
-
+                <div class="bloqueExampleAnimation">
+                    <div class="cajaExampleTimingFunction">ease</div>
+                    <div class="cajaExampleTimingFunction2">linear</div>
+                    <div class="cajaExampleTimingFunction3">ease-in-out</div>
+                </div>
             </article>
 
             <article>
@@ -263,11 +266,17 @@
                 <p>Ejemplo:</p>
                 <div class="bloqueCodeAnimation">
                     div{
-                    <br>animation-delay: 3s;
+                    <br>animation-delay: 2s;
                     <br>}
-
+                    <br>@keyframes mymove {
+                    <br> from {left: 0px;}
+                    <br> to {left: 200px;}
+                    <br> }
+                    <br>
                 </div>
-
+                <div class="bloqueExampleAnimation">
+                    <div class="cajaExamplDelay"></div>
+                </div>
             </article>
 
             <article>
@@ -284,8 +293,115 @@
                     <br> div{
                     <br>animation-iteration-count: infinite;
                     <br>}
+                    <br>@keyframes mymove {
+                    <br> from {left: 0px;}
+                    <br> to {left: 200px;}
+                    <br> }
                 </div>
 
+                <div class="bloqueExampleAnimation">
+                    <div class="cajaExampleIterationCount"></div>
+                </div>
+            </article>
+            <article>
+                <h3>Sub-propiedad animation-direction</h3>
+                <p>
+                    La propiedad animation-direction indica si la animación debe retroceder hasta el fotograma inicial al finalizar la secuencia,
+                    o si debe comenzar desde el principio al llegar al final.
+                    <br>
+                    <br>Los valores que puede tomar son:
+                </p>
+                <div class="bloqueCodeAnimation">
+                    animation-direction: normal
+                    <br>animation-direction: reverse
+                    <br>animation-direction: alternate
+                    <br>animation-direction: alternate-reverse
+                    <br>animation-direction: normal, reverse
+                    <br>animation-direction: alternate, reverse, normal
+                    <br>
+                </div>
+                <p>Ejemplo:</p>
+                <div class="bloqueCodeAnimation">
+                    div {
+                    <br>&nbsp;animation-duration: 3s;
+                    <br>&nbsp;animation-name: slidein;
+                    <br>&nbsp;animation-iteration-count: infinite;
+                    <br>&nbsp;animation-direction: alternate;
+                    <br>}
+                    <br>
+                </div>
+                <div class="bloqueExampleAnimation">
+                    <div class="cajaExampleDirectionAnimation">NORMAL</div>
+                    <div class="cajaExampleDirectionAnimation">REVERSE</div>
+                    <div class="cajaExampleDirectionAnimation">ALERNATE</div>
+                    <div class="cajaExampleDirectionAnimation">ALERNATE-REVERSE</div>
+                </div>
+            </article>
+
+            <article>
+                <h3>Sub-propiedad animation-fill-mode</h3>
+                <p>
+                    Esta propiedad especifica el modo de cómo se comportará el CSS en función de la animación.
+                    <br>Por ejemplo la propiedad, 'fowards' especifica que, al finalizar la animación, el objeto debe tomar los
+                    valores de 'To' del Keyframe.
+                    <br> Del mismo modo que 'backwards' debe aplicarse con la sub-propiedad 'delay'. Esto hace que durante el
+                    tiempo que la animación esté en delay, el objeto mantenga las propiedades CSS de 'From' del Keyframe.
+                    <br>
+                    <br>Los valores que puede tomar son:
+                </p>
+                <div class="bloqueCodeAnimation">
+                    animation-fill-mode: none
+                    <br>animation-fill-mode: forwards
+                    <br>animation-fill-mode: backwards
+                    <br>animation-fill-mode: both
+                    <br>
+                </div>
+                <p>Ejemplo:</p>
+                <div class="bloqueCodeAnimation">
+                    div {
+                    <br>&nbsp;animation-duration: 4s;
+                    <br>&nbsp;animation-delay: 2s;
+                    <br>&nbsp;animation-name: slideout;
+                    <br>&nbsp;animation-fill-mode: backwards;
+                    <br>}
+                    <br>
+                </div>
+                <div class="bloqueExampleAnimation">
+                    <div class="cajaExampleFillAnimation">none</div>
+                    <div class="cajaExampleFillAnimation">forwards</div>
+                    <div class="cajaExampleFillAnimation">backwards</div>
+                </div>
+            </article>
+
+            <article>
+                <h3>Sub-propiedad animation-play-state</h3>
+                <p>
+                    Play-State determina si una animación está en ejecución o en pausa. Puede ser consultada para determinar si la animación
+                    se está ejecutando. Además, su valor se puede establecer para pausar y reanudar una animación.
+                    <br>Reanudando una animación pausada, ésta empezará en el punto en el que fue pausada, en vez de empezar
+                    desde el principio.
+                    <br>
+                    <br>Los valores que puede tomar son:
+                </p>
+                <div class="bloqueCodeAnimation">
+                    animation-play-state: running;
+                    <br>animation-play-state: paused;
+                    <br>
+                </div>
+                <p>Ejemplo:</p>
+                <div class="bloqueCodeAnimation">
+                    div {
+                    <br>&nbsp;animation-duration: 4s;
+                    <br>&nbsp;animation-iteration-count: infinite;
+                    <br>&nbsp;animation-name: slideout;
+                    <br>&nbsp;animation-play-state: paused;
+                    <br>}
+                    <br>
+                </div>
+                <div class="bloqueExampleAnimation">
+                    <div class="cajaExamplePlayAnimation">runing</div>
+                    <div class="cajaExamplePlayAnimation">paused</div>
+                </div>
             </article>
         </section>
 

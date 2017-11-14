@@ -190,3 +190,170 @@ ul{
 		margin-left: 0px;
 	}
 }
+
+.cajaExampleDirectionAnimation{
+	width: 20px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+
+.cajaExampleDirectionAnimation:nth-child(1){
+	background: #853be6;
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.cajaExampleDirectionAnimation:nth-child(2){
+	background: #3be63b;
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+.cajaExampleDirectionAnimation:nth-child(3){
+	background: #e63b3b;
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.cajaExampleDirectionAnimation:nth-child(4){
+	background: #1bd698;
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes slidein {
+  from {
+		margin-left: 88%;
+		width: 150px;
+  }
+
+  to {
+		margin-left: 0%;
+		width: 100%;
+  }
+}
+
+.cajaExampleFillAnimation{
+	width: 20px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+
+.cajaExampleFillAnimation:nth-child(1){
+	background: #422727;
+	animation-duration: 4s;
+	animation-delay: 2s; 
+  animation-name: slideout;
+	animation-fill-mode: none;
+}
+
+.cajaExampleFillAnimation:nth-child(2){
+	background: #84ade9;
+  animation-duration: 4s;
+  animation-name: slideout;
+	animation-fill-mode: forwards;
+}
+
+.cajaExampleFillAnimation:nth-child(3){
+	background: #b98255;
+	animation-duration: 4s;
+	animation-delay: 2s; 
+	animation-name: slideout;
+	animation-fill-mode: backwards;
+}
+
+.cajaExamplePlayAnimation{
+	width: 20px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+
+
+.cajaExamplePlayAnimation:nth-child(1){
+	background: #006cc5;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-name: slideout;
+	animation-play-state: running;
+}
+
+.cajaExamplePlayAnimation:nth-child(2){
+	background: #ffb570;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-name: slideout;
+	animation-play-state: paused;
+}
+
+@keyframes slideout {
+  from {
+		margin-left: 0%;
+		width: 100%;
+  }
+
+  to {
+		margin-left: 88%;
+		width: 150px;
+  }
+}
+
+.cajaExampleTimingFunction{
+	text-align: center;
+	width: 50px;
+    height: 50px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease;
+}
+.cajaExampleTimingFunction2{
+	text-align: center;
+	width: 50px;
+    height: 50px;
+    background: green;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+}
+.cajaExampleTimingFunction3{
+	text-align: center;
+	width: 50px;
+    height: 50px;
+	background: blue;
+	color: white;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.cajaExamplDelay{
+	width: 30px;
+    height: 30px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+}
+
+.cajaExampleIterationCount{
+	width: 30px;
+    height: 30px;
+    background: red;
+    position: relative;
+    animation: mymove 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
