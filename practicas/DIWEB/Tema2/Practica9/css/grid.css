@@ -1,0 +1,153 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #E1F5FE;
+    display: grid;
+}
+
+header{
+    text-align: center;
+    background-color: #81D4FA;
+    padding: 20px 0;
+}
+
+h1{
+    margin: 0px;
+}
+
+nav{
+    background-color: #B3E5FC;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    padding: 20px 50px;
+    margin: 0 50px;
+}
+
+nav ul li:hover{
+    background-color: #4FC3F7;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#contenidoPrincipal{
+    display: grid;
+    grid-template-columns: 80% 19%;
+}
+
+main section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+main section article{
+    margin: 10px;
+}
+
+main article{
+    background-color: #81D4FA;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+main article header{
+    color: white;
+    padding: 0px;
+    font-size: 30px;
+}
+
+main article h4{
+    padding: 5px 0;
+    margin: 0;
+    text-align: center;
+}
+
+aside article header{
+    background-color: transparent;
+}
+
+aside #archivo ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 13px;
+    list-style: none;
+    justify-content: center;
+}
+
+aside #publicidad #contenidoPublicidad{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+aside #publicidad #contenidoPublicidad div{
+    text-align: center;
+    padding: 30px 10px;
+    border: 1px solid;
+}
+
+footer{
+    display: grid;
+    background-color: #81D4FA;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+footer #contenidoFooter{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer #contenidoFooter #nombre{
+    font-size: 30px;
+    text-align: left;
+}
+
+footer #iconos{
+    text-align: right;
+}
+
+footer #iconos a {
+    color: #fff;
+    margin: 0px 20px; 
+    text-decoration: none;
+}
+
+footer #iconos #twitter:hover {
+    color: #04a6db;
+}
+
+footer #iconos #facebook:hover {
+    color: #02309b;
+}
+
+footer #iconos #github:hover {
+    color: #9f00ff;
+}
+
+footer #iconos #gplus:hover {
+    color: #DC4A38;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Miguel Ángel Gavilán Merino">
+    <title>Document</title>
+
+    <script defer src="js/lindoGatito.js"></script>
+</head>
+
+<body>
+    <div id="principal">
+        <h1>Lindo Gatito</h1>
+        <label for="nombre">Nombre:</label>
+        <br>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <label for="raza">Raza:</label>
+        <br>
+        <select name="raza" id="raza">
+            <option value="Persa">Persa</option>
+            <option value="Siames">Siamés</option>
+            <option value="Bengala">Bengala</option>
+            <option value="Ragdoll">Ragdoll</option>
+        </select>
+        <br>
+        <label for="fecha">Fecha de Nacimiento:</label>
+        <br>
+        <input type="text" name="fecha" id="fechaNac" placeholder="YYYY/mm/dd">
+        <br>
+        <p id="error"></p>
+        <input type="button" value="Nuevo Gatito" id="newbtn">
+    </div>
+</body>
+
+</html>

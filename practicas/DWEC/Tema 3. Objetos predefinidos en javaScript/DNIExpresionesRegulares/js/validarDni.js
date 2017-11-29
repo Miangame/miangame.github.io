@@ -16,7 +16,7 @@
 
     let comprobarDni = function (dni) {
         let letras = ["T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E", "T"];
-        let patron = /^(\d{8})[ -]?([TRWAGMYFPDXBNJZSQVHLCKET])$/i
+        let patron = /^(\d{8})[ -]?([TRWAGMYFPDXBNJZSQVHLCKET])$/i;
         let letra;
         let numeroDni;
         let indiceLetra;
