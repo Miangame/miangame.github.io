@@ -1,0 +1,125 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-size: 16px;
+    color: #1B1D1D;
+}
+
+body>header{
+    background-image: url("../imagenes/Honda-logo.png"), url("../imagenes/mclaren-1.svg"), url("../imagenes/logo_McLaren.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position:left, left, right;
+    background-size: 100px 70px,350px 120px,200px 70px;
+
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: #FF7D40;
+}
+
+body>header>h1{
+    color: white;
+}
+
+body main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "section figure";
+
+}
+
+body main section{
+    grid-area: section;
+}
+
+body main figure{
+    grid-area: figure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+body main figure figcaption{
+    align-self: left;
+    padding-left: 10px;
+    margin: 0;
+    height: 100%;
+    width: 99%;
+    transition: background-color 0.7s;
+}
+
+body main figure img{
+    width: 500px;
+    height: 400px;
+}
+
+body main section article{
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+body main section article:hover{
+    color: white;
+    background-color: #1B1D1D;
+    box-shadow: 0 1px 15px #FF7D40;
+}
+
+body main section article header{
+    text-align: center;
+    color: #FF7D40;
+}
+
+body main section article, figure{
+    box-shadow: 0 1px 3px #FF7D40;
+    transition: background-color 0.7s;
+}
+
+body main figure figcaption:hover{
+    color: white;
+    background-color: #1B1D1D;
+    box-shadow: 0 1px 15px #FF7D40;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #FF7D40;
+    background-color: #1B1D1D;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+nav ul li{
+    transition: all 0.8s;
+}
+
+nav ul li:hover{
+    transform: rotate(-370deg) scale(1.2);
+}
+
+nav ul li a:hover{
+    background-color: white;
+}
+
+ul li span{
+    font-weight: bold;
+}

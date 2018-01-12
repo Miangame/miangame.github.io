@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Miguel Ángel Gavilán Merino</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <script src="js/formulario.js"></script>
+    <script src="js/alumno.js"></script>
+</head>
+
+<body>
+    <noscript>El navegador no soporta JavaScript</noscript>
+    <h1>Miguel Ángel Gavilán Merino</h1>
+    <h2>Ejercicio 2</h2>
+    <form action="" method="">
+        <fieldset>
+            <legend>Alta del alumno</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Nombre">
+            <span id="errorNombre"></span>
+            <br>
+            <br>
+            <label for="primerApellido">Primer apellido</label>
+            <input type="text" id="primerAp" placeholder="PrimerApellido">
+            <span id="errorPrimerAp"></span>
+            <br>
+            <br>
+            <label for="segundoApellido">Segundo apellido</label>
+            <input type="text" id="segundoAp" placeholder="Segundo apellido">
+            <span id="errorSegundoAp"></span>
+            <br>
+            <br>
+            <label for="fechaNac">Fecha de nacimiento</label>
+            <input type="text" id="fechaNac" placeholder="dd-mm-aaaa">
+            <span id="errorFecha"></span>
+        </fieldset>
+
+        <input type="button" value="Crear" id="crearAlumno">
+        <input type="button" value="Limpiar" id="limpiarForm">
+    </form>
+</body>
+
+</html>

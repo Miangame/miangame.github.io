@@ -13,7 +13,7 @@
     let esBisiesto = function (cadena) {
         let a = new Date(cadena);
         if (a == "Invalid Date") {
-            throw new FechaException("No es una fecha");
+            throw {message: 'Mal'};
         } else {
             let anno = a.getFullYear();
 
@@ -36,8 +36,8 @@
         cadena += "esBisiesto(\"aaaa\"): " + esBisiesto("aaaa") + "<br>";
     
        
-    }catch (fechaException) {
-        cadena += fechaException.aviso;
+    }catch (e) {
+        cadena += e.message;
     }
 
     parrafo.innerHTML = cadena;

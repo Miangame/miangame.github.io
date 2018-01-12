@@ -1,0 +1,57 @@
+*{
+    font-family: 'Merienda One', cursive;
+}
+
+body{
+    background-image: url(../imagenes/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animacion 12s infinite;
+    min-height: 100vh;
+    transition: background-image 5s ease-in-out;
+}
+
+@keyframes animacion{
+	33%{
+		background-image: url(../imagenes/fondo1.JPG);
+		
+	}
+	66%{
+        background-image: url(../imagenes/fondo2.jpg);
+	}
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#panelPrincipal{
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white;
+}
+
+#botonEntrar{
+    text-decoration: none;
+    padding: 20px 180px;
+    background-color: green;
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+
+#botonEntrar:hover{
+    background-color: rgb(7, 206, 7);
+    transition: all 1s ease;
+}

@@ -1,0 +1,173 @@
+body{
+    background: url('../images/background.jpg');
+}
+
+body>header{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+body>header>h1{
+    font-family: 'Arvo', serif;
+    color: white;
+    padding: 25px;
+    background-image: url("../images/titulo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 20px black;
+    transform: rotate(-5deg);
+}
+
+body>header>h2{
+    background-image: url("../images/titulo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 20px black;
+    transform: rotate(30deg);
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}   
+
+body header h2 a{
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+
+#contenidoPrincipal{
+    display: grid;
+    grid-template-columns: 90% 9%;
+}
+
+main section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main section article{
+    position: relative;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
+    margin: 80px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height:250px;
+    width:250px;
+    padding: 1em;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    text-align: center;
+}
+
+main section article:nth-child(even){
+    transform: rotate(4deg);
+}
+
+main section article:nth-child(3n){
+    transform: rotate(-3deg);
+}
+
+main section article:nth-child(5n){
+    transform: rotate(5deg);
+}
+
+main section article:hover{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.25);
+}
+
+main section article #chincheta{
+    width: 52px;
+    height: 48px;
+}
+
+main section article #modificar{
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+main section article #eliminar{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.diweb{
+    background:#ffc;
+}
+
+.dwes{
+    background:rgb(51, 255, 0);
+}
+
+.dwec{
+    background:rgb(255, 0, 234);
+}
+
+.android{
+    background:rgb(0, 255, 242);
+}
+
+
+.asignatura{
+    margin: 10px;
+    box-shadow: 0 0 20px black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.asignatura:hover{
+    cursor: pointer;
+}
+
+#btnAndroid{
+    background-image: url("../images/maderaAzul.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btnDwec{
+    background-image: url("../images/maderaRosa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btnDwes{
+    background-image: url("../images/maderaVerde.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btnDiweb{
+    background-image: url("../images/maderaAmarilla.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btnMostrarTodo{
+    background-image: url("../images/titulo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#formOculto{
+    display: none;
+    margin-top: 20px;
+    background-color: rgb(240, 148, 73);
+    padding: 20px;
+    box-shadow: 0 0 20px black;
+}
+
+#titulo, #fecha{
+    width: 80px;
+}

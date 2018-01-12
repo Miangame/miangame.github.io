@@ -1,18 +1,19 @@
-/**
- * Partiendo de un documento html vacío, crea los elementos HTML de una calculadora mediante los métodos del objeto predefinido document.
- * 
- * @author Miguel Ángel Gavilán Merino
- */
-
 {
-    let contadorComas = 0;
+
+    let patron = /btn(.*)/;
+
+
+    let numero = 0;
+    let variable = "";
+    let temporal = "";
+    let bandera = false;
 
     let calculadora = {
-        "acumulado": 0,
+        acumulado: 0,
 
-        "arrayIds": ["btnCE", "btnC", "btnPorc", "btnSuma", "btn7", "btn8", "btn9", "btnResta", "btn4", "btn5", "btn6", "btnMult", "btn1", "btn2", "btn3", "btnDiv", "btn0", "btnCambSig", "btnComa", "btnIgual"],
+        arrayIds: ["btnCE", "btnC", "btnPorc", "btnSuma", "btn7", "btn8", "btn9", "btnResta", "btn4", "btn5", "btn6", "btnMult", "btn1", "btn2", "btn3", "btnDiv", "btn0", "btnCambSig", "btnComa", "btnIgual"],
 
-        "crearcalculadora": function () {
+        crearCalculadora: function () {
             let botones = ["CE", "<-", "%", "+", "7", "8", "9", "-", "4", "5", "6", "x", "1", "2", "3", "/", "0", "+-", ",", "="];
 
             let contenido = document.createElement("div");
@@ -23,9 +24,9 @@
 
             elemento = document.createElement("div");
             input = document.createElement("input");
-            input.type = "text";
-            input.setAttribute("disabled", "");
+            input.type = "number";
             input.className = "texto";
+            input.setAttribute("disabled", "");
             input.id = "texto";
             input.value = 0;
 
@@ -51,93 +52,113 @@
             document.body.appendChild(contenido);
 
         }
-    }//crearcalculadora()
+    }//calculadora
 
-    let asignarComportamiento = function () {
-        let numero = this.value;
+    let calcular = function () {
         let campo = document.getElementById("texto");
+        if (variable == "") {
+            variable = this.value;
+            calculadora.acumulado = numero;
 
-        switch (numero) {
-            case "+":
-                calculadora.acumulado += parseFloat(campo.value);
-                numero = calculadora.acumulado;
-                campo.value = numero;
-                break;
+        } else if (numero !== 0) {
 
-            case "-":
-                calculadora.acumulado = parseFloat(campo.value) - parseFloat(calculadora.acumulado);
-                numero = calculadora.acumulado;
-                campo.value = numero;
-                break;
+            switch (variable) {
+                case "+":
+                    calculadora.acumulado += numero;
+                    campo.value = calculadora.acumulado;
+                    break;
 
-            case "x":
-                if (calculadora.acumulado === 0) {
-                    calculadora.acumulado = 1;
-                }
+                case "-":
+                    calculadora.acumulado = calculadora.acumulado - numero;
+                    campo.value = calculadora.acumulado;
+                    break;
 
-                calculadora.acumulado *= parseFloat(campo.value);
-                numero = calculadora.acumulado;
-                campo.value = numero;
-                break;
+                case "x":
+                    calculadora.acumulado *= numero;
+                    campo.value = calculadora.acumulado;
+                    break;
 
-            case "/":
-                calculadora.acumulado = parseFloat(campo.value) / parseFloat(calculadora.acumulado);
-                campo.value = numero;
-                break;
+                case "/":
+                    calculadora.acumulado /= numero;
+                    campo.value = calculadora.acumulado;
+                    break;
 
-            case "CE":
-                calculadora.acumulado = 0;
-                contadorComas = 0;
-                campo.value = 0;
-                break;
-
-            case "<-":
-                break;
-
-            case "%":
-                break;
-
-            case "=":
-                break;
-
-            case ",":
-                if (contadorComas < 1) {
-                    if (campo.value === 0) {
-                        campo.value = 0 + ".";
-                    } else {
-                        campo.value = campo.value + ".";
-                    }
-                }
-                contadorComas++;
-                break;
-
-            case "+-":
-                campo.value = -campo.value;
-                break;
-
-            default:
-                if (campo.value == "0") {
-                    campo.value = numero;
-                } else {
-                    campo.value += numero;
-                }
-
-                break;
+            }
         }
 
+        if (variable != "") {
+            switch (variable) {
+                case "CE":
+                    calculadora.acumulado = 0;
+                    variable = "";
+                    numero = 0;
+                    campo.value = 0;
+                    bandera = false;
+                    break;
+
+                case "<-":
+                    if (campo.value.length <= 1) {
+                        campo.value = 0;
+                    } else {
+                        campo.value = campo.value.substring(0, campo.value.length - 1);
+                    }
+                    break;
+
+                case "%":
+                    campo.value = campo.value / 100;
+                    variable = "";
+                    break;
+
+                case "=":
+                    variable = "";
+                    break;
+
+                case ",":
+                    if (bandera == false) {
+                        temporal = numero + ".";
+                        bandera = true;
+                    }
+                    break;
+
+                case "+-":
+                    campo.value = campo.value - campo.value * 2;
+                    break;
+            }
+
+        }
+
+        variable = this.value;
+        bandera = false;
+        numero = 0;
+
+
+
     }
 
-    let calcularResultado = function () {
-
-
+    let introducir = function () {
+        let campo = document.getElementById("texto");
+        if (bandera == true) {
+            numero = parseFloat(temporal + this.value);
+            campo.value = numero;
+        } else {
+            if (numero == 0) {
+                numero = parseFloat(this.value);
+                campo.value = numero;
+            } else {
+                numero = parseFloat(numero + this.value);
+                campo.value = numero;
+            }
+        }
     }
 
-
-
-
-    calculadora.crearcalculadora();
+    calculadora.crearCalculadora();
 
     calculadora.arrayIds.forEach(function (element) {
-        document.getElementById(element).onclick = asignarComportamiento;
+        if (!isNaN(parseInt(element.match(patron)[1]))) {
+            document.getElementById(element).onclick = introducir;
+        } else {
+            document.getElementById(element).onclick = calcular;
+        }
+
     });
 }

@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(214, 101, 240);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img{
+    width: 250px;
+    height: 250px;
+}
+
+main label{
+    font-weight: bold
+}
+
+#divImg img{
+    border-radius: 20px;
+    box-shadow: 0 0 20px black; 
+}
+
+#botones{
+    margin-top: 20px;
+}
+
+#botones input{
+    margin-left: 20px;
+}
+
+#principal {
+    border: 1px solid;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black; 
+    background-color: rgb(212, 0, 255);
+}
+
+#error{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+input, select{
+    border-radius: 10px;
+    box-shadow: 0 0 20px black; 
+    padding: 3px;
+}
+
+input:focus{
+    outline: none;
+}
+
+table{
+    margin: 10px auto;
+}
+
+table tr td{
+    border: 1px solid;
+    padding: 5px;
+}
+
+.aviso{
+    color: white;
+    font-weight: bold;
+}
