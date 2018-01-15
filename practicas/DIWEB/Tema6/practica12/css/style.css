@@ -234,7 +234,7 @@ footer #iconos #facebook:hover {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1270px) {
     body {
         display: flex;
         flex-flow: column;
@@ -287,25 +287,26 @@ footer #iconos #facebook:hover {
     }
     #imgReserva {
         background: url("../imagenes/fondo1.JPG");
+        background-repeat: no-repeat;
         background-size: cover;
         border-radius: 10px;
     }
     #casas {
         margin-top: 30px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-row-gap: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .casaRural {
         height: 100%;
+        width: 29%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 10px;
-        padding: 10px;
     }
     .casaRural img {
-        width: 300px;
-        height: 200px;
+        width: 90%;
+        min-height: 100px;
     }
     footer {
         margin-top: 30px;

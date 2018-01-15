@@ -55,8 +55,8 @@ masterMind = (function () {
     }
 
     let init = function () {
-        coloresObjetivo = ["negro","azul","amarillo","amarillo"];
-        //generarColoresObjetivo();
+        coloresObjetivo = [];
+        generarColoresObjetivo();
     }
 
     return {

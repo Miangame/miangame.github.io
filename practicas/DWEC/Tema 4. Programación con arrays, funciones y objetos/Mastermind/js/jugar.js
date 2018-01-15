@@ -10,46 +10,53 @@
     let btnSalir;
     let btnReiniciar;
 
-    let aniadirCirculo = function (evt) {
-        if (contador < 4) {
-            switch (this.id) {
-                case "circuloRojo":
-                    circulosRellenar[contador].style = "background-color: red;";
-                    break;
+    let aniadirCirculo = function () {
+        for (let i = 0; i < circulosRellenar.length; i++) {
+            if (circulosRellenar[i].style.backgroundColor == "" || circulosRellenar[i].style.backgroundColor == "transparent") {
+                switch (this.id) {
+                    case "circuloRojo":
+                        circulosRellenar[i].style = "background-color: red;";
+                        break;
 
-                case "circuloBlanco":
-                    circulosRellenar[contador].style = "background-color: white;";
-                    break;
+                    case "circuloBlanco":
+                        circulosRellenar[i].style = "background-color: white;";
+                        break;
 
-                case "circuloNegro":
-                    circulosRellenar[contador].style = "background-color: black;";
-                    break;
+                    case "circuloNegro":
+                        circulosRellenar[i].style = "background-color: black;";
+                        break;
 
-                case "circuloVerde":
-                    circulosRellenar[contador].style = "background-color: green;";
-                    break;
+                    case "circuloVerde":
+                        circulosRellenar[i].style = "background-color: green;";
+                        break;
 
-                case "circuloAzul":
-                    circulosRellenar[contador].style = "background-color: blue;";
-                    break;
+                    case "circuloAzul":
+                        circulosRellenar[i].style = "background-color: blue;";
+                        break;
 
-                case "circuloAmarillo":
-                    circulosRellenar[contador].style = "background-color: yellow;";
-                    break;
+                    case "circuloAmarillo":
+                        circulosRellenar[i].style = "background-color: yellow;";
+                        break;
 
-                case "circuloMarron":
-                    circulosRellenar[contador].style = "background-color: brown;";
-                    break;
+                    case "circuloMarron":
+                        circulosRellenar[i].style = "background-color: brown;";
+                        break;
 
-                case "circuloNaranja":
-                    circulosRellenar[contador].style = "background-color: orange;";
-                    break;
+                    case "circuloNaranja":
+                        circulosRellenar[i].style = "background-color: orange;";
+                        break;
+                }
+                circulosRellenar[i].addEventListener("click", quitarColor);
+                break;
             }
+
+            contador++;
         }
+    }
 
-
-        contador++;
-
+    let quitarColor = function () {
+        this.style = "background-color: transparent;";
+        this.removeEventListener("click", quitarColor);
     }
 
     let crearNuevaLinea = function () {
