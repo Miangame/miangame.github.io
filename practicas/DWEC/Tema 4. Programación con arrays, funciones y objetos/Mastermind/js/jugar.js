@@ -10,6 +10,9 @@
     let btnSalir;
     let btnReiniciar;
 
+    /**
+     * Añade un circulo según el color seleccionado y le asigna un evento para poder quitar el color
+     */
     let aniadirCirculo = function () {
         for (let i = 0; i < circulosRellenar.length; i++) {
             if (circulosRellenar[i].style.backgroundColor == "" || circulosRellenar[i].style.backgroundColor == "transparent") {
@@ -54,12 +57,29 @@
         }
     }
 
+    /**
+     * Quita el color de un círculo
+     */
     let quitarColor = function () {
         this.style = "background-color: transparent;";
         this.removeEventListener("click", quitarColor);
     }
 
+    /**
+     * Elimina los eventos de una línea
+     */
+    let quitarEventoLineaAnterior = function () {
+        for (let i = 0; i < circulosRellenar.length; i++) {
+            circulosRellenar[i].removeEventListener("click", quitarColor);
+        }
+    }
+
+    /**
+     * Crea una nueva línea de círculos
+     */
     let crearNuevaLinea = function () {
+        quitarEventoLineaAnterior();
+
         let filaRellenar = document.createElement("div");
         filaRellenar.id = "filaRellenar";
 
@@ -98,6 +118,9 @@
         contadorLinea++;
     }
 
+    /**
+     * Comprueba que los colores seleccionados son los de la secuencia generada aleatoriamente
+     */
     let comprobar = function () {
         let arrayColoresComprobar = [];
         let contador2 = 0;
@@ -149,6 +172,9 @@
         }
     }
 
+    /**
+     * Reinicia la aplicación
+     */
     let reiniciar = function () {
         init();
         pantallaNueva.style = "display: none;"
