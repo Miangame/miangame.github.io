@@ -1,0 +1,61 @@
+.informacionVilla, .servicios, .fotos, .localizacion, .opiniones, .informacionPagos {
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+.informacionVilla p {
+    text-align: justify;
+}
+
+#tituloVilla {
+    background: url("../imagenes/tituloVilla.png");
+    background-size: cover;
+    text-align: center;
+    border-bottom: 2px solid white;
+    text-shadow: 1px 1px 2px black;
+    width: 100%;
+    padding-top: 5em;
+    color: aquamarine;
+}
+
+.servicios {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.servicios ul li {
+    list-style: none;
+    padding: 1.5%;
+}
+
+.fotos, .localizacion, .opiniones, .informacionPagos {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotos img {
+    width: 100%;
+    margin-top: 10px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.opiniones {
+    text-align: justify;
+}
+
+.opiniones span {
+    font-size: 20px;
+}
+
+.informacionPagos .iconosPagos i{
+    font-size: 2.5em;
+	margin: 0.10em;
+}

@@ -96,11 +96,8 @@
             nuevoCirculoRellenar = document.createElement("div");
             nuevoCirculoRellenar.classList.add("circuloRellenar");
             nuevoCirculoRellenar.classList.add("circuloRellenar" + contadorLinea);
-
             nuevoCirculosRellenar.appendChild(nuevoCirculoRellenar);
-        }
 
-        for (let i = 0; i < 4; i++) {
             nuevoCirculoComprobar = document.createElement("div");
             nuevoCirculoComprobar.classList.add("circuloComprobar");
             nuevoCirculoComprobar.classList.add("circuloComprobar" + contadorLinea);

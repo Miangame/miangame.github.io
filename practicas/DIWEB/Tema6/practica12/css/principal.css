@@ -105,11 +105,17 @@ h4 {
     text-shadow: 1px 2px 2px rgb(8, 8, 8);
 }
 
+#botonHeader{
+    grid-area: btnConsultar;
+    display: flex;
+    justify-content: center;
+}
+
 .btnConsultar {
     margin-top: 10px;
     margin-bottom: 5px;
     border-radius: 10px;
-    padding: 5px;
+    padding: 7px;
     text-decoration: none;
     color: white;
     background-color: olivedrab;
@@ -117,7 +123,6 @@ h4 {
     width: 80%;
     text-align: center;
     box-shadow: 0 2px 6px #333333;
-    grid-area: btnConsultar;
 }
 
 #casas {
@@ -132,7 +137,7 @@ h4 {
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
     align-items: center;
-    height: 150px;
+    height: 180px;
     box-shadow: 0 0 20px black;
     border-radius: 10px;
     width: 90%;
@@ -148,6 +153,10 @@ h4 {
 
 .columnaMedio {
     margin: 5px;
+}
+
+.parrafo2{
+    display: none;
 }
 
 p span {
@@ -187,6 +196,11 @@ footer #iconos #twitter:hover {
 footer #iconos #facebook:hover {
     color: #02309b;
     opacity: 1;
+}
+
+.precio{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media screen and (min-width: 768px) {
