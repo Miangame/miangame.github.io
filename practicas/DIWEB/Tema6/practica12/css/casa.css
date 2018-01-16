@@ -1,4 +1,4 @@
-.informacionVilla, .servicios, .fotos, .localizacion, .opiniones, .informacionPagos {
+.informacionVilla, .servicios, .fotos, .localizacion, .seccionesReservas, .opiniones, .informacionPagos {
     background-color: white;
     margin: 10px;
     padding: 5px;
@@ -19,6 +19,26 @@
     width: 100%;
     padding-top: 5em;
     color: aquamarine;
+}
+
+.seccionesReservas {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.seccionesReservas p label {
+    display: block;
+}
+
+.seccionesReservas p input:valid {
+    box-shadow: 0 0 10px greenyellow;
+    outline: 0px;
+}
+
+.seccionesReservas p input:invalid {
+    box-shadow: 0 0 10px red;
+    outline: 0px;
 }
 
 .servicios {
@@ -42,9 +62,13 @@
 
 .fotos img {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 150px;
     border-radius: 10px;
+}
+
+iframe {
+    width: 90%;
 }
 
 .opiniones {
@@ -55,7 +79,60 @@
     font-size: 20px;
 }
 
-.informacionPagos .iconosPagos i{
+.informacionPagos .iconosPagos i {
     font-size: 2.5em;
-	margin: 0.10em;
+    margin: 0.10em;
+}
+
+.btnConsultar {
+    width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    .seccionesInformacionReservas {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "info servicios" "fotos loc" "fotos reserva" "fotos opiniones" "fotos pagos";
+    }
+    .informacionVilla {
+        grid-area: info;
+    }
+    .servicios {
+        grid-area: servicios;
+        display: flex;
+        justify-content: center;
+    }
+    .fotos {
+        grid-area: fotos;
+    }
+    .fotos img {
+        height: 400px;
+    }
+    .localizacion {
+        grid-area: loc;
+    }
+    .seccionesReservas {
+        grid-area: reserva;
+    }
+    .opiniones {
+        grid-area: opiniones;
+    }
+    .informacionPagos {
+        grid-area: pagos;
+        display: flex;
+    }
+    .informacionPagos .iconosPagos i {
+        font-size: 2.5em;
+        margin: 3px;
+    }
+    iframe {
+        width: 90%;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1270px) {
+    .btnConsultar {
+        width: 80%;
+    }
 }
