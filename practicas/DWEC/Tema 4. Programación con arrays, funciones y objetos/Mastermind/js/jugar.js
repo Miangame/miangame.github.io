@@ -53,8 +53,8 @@
                 break;
             }
 
-            contador++;
         }
+        contador++;
     }
 
     /**
@@ -63,6 +63,7 @@
     let quitarColor = function () {
         this.style = "background-color: transparent;";
         this.removeEventListener("click", quitarColor);
+        contador--;
     }
 
     /**
@@ -71,7 +72,7 @@
     let quitarEventoLineaAnterior = function () {
         for (let i = 0; i < circulosRellenar.length; i++) {
             circulosRellenar[i].removeEventListener("click", quitarColor);
-            circulosRellenar[i].style.pointerEvents ="none";
+            circulosRellenar[i].style.pointerEvents = "none";
         }
     }
 
@@ -142,7 +143,7 @@
             }
 
         }
-
+        console.log(contador);
         if (contador >= 4) {
             objetoComprobar = masterMind.comprobar(arrayColoresComprobar);
 
