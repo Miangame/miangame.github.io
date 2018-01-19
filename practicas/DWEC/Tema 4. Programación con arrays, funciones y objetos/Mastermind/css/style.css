@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Iceland'), local('Iceland-Regular'), url(http://themes.googleusercontent.com/static/fonts/iceland/v3/F6LYTZLHrG9BNYXRjU7RSw.woff) format('woff');
+  }
+
 body {
     display: flex;
     align-items: center;
@@ -112,17 +119,25 @@ main {
 #pantallaFin {
     display: none;
     position: absolute;
-    background-image: url("../imagenes/background.jpeg");
     width: 50%;
     height: 800px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px black;
-    
     text-align: center;
 }
 
 #pantallaFin h2 {
-    font-size: 50px;
+    font-size: 5em;
+    color: #228DFF;
+    font-family: Iceland;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon2 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+    }
 }
 
 #pantallaFin a {
@@ -135,12 +150,12 @@ main {
     margin: 20px;
 }
 
-#pantallaFin a:hover,#jugar:hover {
+#pantallaFin a:hover, #jugar:hover {
     background-color: rgb(240, 168, 73);
     transition: all 0.7s ease;
 }
 
-#contenidoPrincipal{
+#contenidoPrincipal {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -148,8 +163,7 @@ main {
     justify-content: center;
 }
 
-
-#jugar{
+#jugar {
     text-decoration: none;
     color: black;
     font-weight: bold;

@@ -143,7 +143,7 @@
             }
 
         }
-        console.log(contador);
+
         if (contador >= 4) {
             objetoComprobar = masterMind.comprobar(arrayColoresComprobar);
 
@@ -166,7 +166,10 @@
                 contador2 = 0;
             }
 
-            crearNuevaLinea();
+            if (contador2 != 4) {
+                crearNuevaLinea();
+            }
+
             divIzqda.scrollTo(0, 0)
         }
     }
