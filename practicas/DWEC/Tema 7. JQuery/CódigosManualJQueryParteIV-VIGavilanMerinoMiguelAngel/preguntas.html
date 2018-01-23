@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Miguel Ángel Gavilán Merino</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="js/preguntas.js"></script>
+
+    <style>
+        .cuadro {
+            width: 500px;
+            height: 300px;
+            border: 5px solid blue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Miguel Ángel Gavilán Merino</h1>
+    <h2>1.Distintas formas de acceder al atributo checked. Compruébalo en las distintas plataformas, tanto con input como con
+        radio buttons</h2>
+    <input id="check" type="checkbox" checked="checked">
+    <label for="check">Márcame</label>
+    <div id="accediendoAlChecked"></div>
+
+    <div id="asignaturasSeleccionadas"></div>
+    <h2>2.De tres 'input type="checkbox"' que te deshabilite 2 al seleccionar una de ellas</h2>
+    <input id="check1" class="grupoCheckbox" type="checkbox">
+    <input id="check2" class="grupoCheckbox" type="checkbox">
+    <input id="check3" class="grupoCheckbox" type="checkbox">
+    <h2>3.Asociar dintintos eventos mediante .on()</h2>
+    <div id="eventos" class="cuadro"></div>
+    <h2>4.Indica los eventos estándares en el DOM</h2>
+    <ul>
+        <li>event.initEvent: Inicia el valor de un evento que se ha creado vía la interfaz DocumentEvent.</li>
+        <li>event.initKeyEvent: Inicia un evento del teclado. (Específico de Gecko).</li>
+        <li>event.initMouseEvent: Inicia un evento del ratón una vez que se ha creado.</li>
+        <li>event.initUIEvent: Inicia un evento de la interfaz de usuario (UI) una vez que se ha creado.</li>
+        <li>event.preventDefault: Cancela el evento (si éste es anulable).</li>
+        <li>event.stopPropagation: Para la propagación de los eventos más allá en el DOM.</li>
+    </ul>
+    <h2>5.Los atributos pageX, pageY, currentTarget, timeStamp... ¿A qué objeto pertenecen? Demuestra su uso</h2>
+
+    <p>Estos atributos son implementados mediante la interfaz event</p>
+    <div id="interfazEvent" class="cuadro"></div>
+
+
+    <h2>6.Diferencia entre .on(), .live(). bind() y .delegate()</h2>
+
+    <ul>
+        <li>bind(): La función bind() sirve para asociar un evento a un element del DOM. En este caso, si a una url le asociamos
+            un evento con bind, todos los demás links o urls nuevas no tendrán implementado dicho elemento (sólo al elemento
+            que se le asoció el evento).</li>
+        <li>live(): La función live() es prácticamente igual a bind con la diferencia que asocia el evento al root del DOM y
+            cuando un evento se dispara y llega al root se comprueba si el selector concuerda y se ejecuta la función. Además,
+            no podemos usar el chaining, su rendimiento es bajo si tenemos un DOM bastante grande y este método se encuentra
+            obsoleto desde jQuery 1.7</li>
+        <li>delegate(): La función delegate() es muy parecida a live con la diferencia de que podemos asociar el evento a un
+            selector en lugar de asociar el selector y el evento al document. Con respecto a live(), aquí (en deletage) si
+            que podemos usar el chaining y el rendimiento es mayor, ya que sólo accederemos a unos elementos del DOM concretos.</li>
+        <li>on(): La función on() fue introducida en jQuery 1.7 para traer un poco de “orden” a las anteriores funciones. On()
+            posee todas las ventajas de delegate() pero a su vez sirve como la función bind() dependiendo de como lo usemos.</li>
+    </ul>
+</body>
+
+</html>
