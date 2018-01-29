@@ -143,7 +143,6 @@
             }
 
         }
-
         if (contador >= 4) {
             objetoComprobar = masterMind.comprobar(arrayColoresComprobar);
 

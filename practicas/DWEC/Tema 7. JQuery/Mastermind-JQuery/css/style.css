@@ -23,6 +23,10 @@ main {
     grid-template-columns: 85% 15%;
 }
 
+#filaRellenar{
+    margin-bottom: 100px;
+}
+
 #izquierda {
     overflow: auto;
     display: flex;
@@ -140,6 +144,7 @@ main {
     }
 }
 
+
 #pantallaFin a {
     text-decoration: none;
     color: black;
@@ -148,11 +153,12 @@ main {
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
+    transition: all 0.7s ease;
 }
 
 #pantallaFin a:hover, #jugar:hover {
     background-color: rgb(240, 168, 73);
-    transition: all 0.7s ease;
+    
 }
 
 #contenidoPrincipal {
@@ -172,4 +178,5 @@ main {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 20px black;
+    transition: all 0.7s ease;
 }

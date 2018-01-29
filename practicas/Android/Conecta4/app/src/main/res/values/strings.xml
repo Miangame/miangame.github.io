@@ -1,3 +1,30 @@
 <resources>
-    <string name="app_name">Conecta4</string>
+    <string name="app_name">Conecta 4</string>
+    <string name="bienvenida">Bienvenido a Conecta 4</string>
+    <string name="mensajeDialogoJugador">Has ganado!!</string>
+    <string name="mensajeDialogoJugadorUnoGanaOnline">Ha ganado el jugador 1!!</string>
+    <string name="mensajeDialogoJugadorDosGanaOnline">Ha ganado el jugador 2!!</string>
+    <string name="mensajeDialogoMaquina">Has perdido</string>
+    <string name="tituloDialogo">Partida Finalizada</string>
+    <string name="dialogoAceptar">Nueva Partida</string>
+    <string name="dialogoSalir">Salir</string>
+    <string name="dialogoCancelar">Cancelar</string>
+    <string name="mensajeAcercaDe">Programa creado por Miguel Ángel Gavilán Merino. CFGS Desarrollo Aplicaciones Web</string>
+    <string name="tituloAcercaDe">Acerca De</string>
+    <string name="tituloEnviarMensaje">Enviar mensaje</string>
+    <string name="tituloAjustes">Ajustes</string>
+    <string name="eligeTurno"></string>
+    <string name="mensajeSalidaOnline">Si sales, la partida no se guardará y perderás todo el progreso.</string>
+    <string name="tituloDialogoSalidaOnline">¿Estás seguro?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_elegir_modo">Elegir Modo</string>
+    <string name="tituloModo">Elige un modo de Juego</string>
+    <string name="tituloBotonModoSolitario">Modo Solitario</string>
+    <string name="tituloBotonModoOnline">Modo Online</string>
+    <color name="colorAzulModo">#5863f5</color>
+    <color name="botonesModo">#e5e354</color>
+
+
 </resources>
