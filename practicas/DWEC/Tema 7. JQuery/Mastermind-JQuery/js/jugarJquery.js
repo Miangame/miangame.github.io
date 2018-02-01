@@ -42,10 +42,10 @@ let aniadirCirculo = function () {
                     break;
             }
             $circulosRellenar[i].addEventListener("click", quitarColor);
+            contador++;
             break;
         }
     }
-    contador++;
 }
 
 /**
@@ -55,6 +55,7 @@ let quitarColor = function () {
     this.style = "background-color: transparent;";
     this.removeEventListener("click", quitarColor);
     contador--;
+    console.log(contador);
 }
 
 /**
