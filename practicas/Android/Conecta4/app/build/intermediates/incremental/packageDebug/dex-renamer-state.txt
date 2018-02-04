@@ -1,0 +1,7 @@
+#Sat Feb 03 20:47:31 CET 2018
+base.0=C\:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b2fc689deb611d3614ac3d01131fbadd416e8083
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4ccec8806ebafdb0463107894301f140972e9188\\classes.dex
+base.1=C\:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4ccec8806ebafdb0463107894301f140972e9188
+file.0=C\:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b2fc689deb611d3614ac3d01131fbadd416e8083\\classes.dex

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\.android\build-cache\12a936f5d11dedac4a075bde8794cbdd77268fd7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9296d6f092fcdba4fafb6ac26546a39babdab46a">
+        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5665435598a160f9839795f1cd48a5238f047126\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\.android\build-cache\9a26ee7bbbd027e64aff327e513a64985d446986\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9bdfc3e83c6bc1f8bc5807cdaf7e94ac884a2a0d">
+        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84e7de5ef408bb6134dc709e8aa1af53dcb7ee9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\.android\build-cache\6f3aea74266a2328d693ae9353aaedee4cba45cb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="bcd0bcdef85b31a656af76e39c0c95ce70800772">
+        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4c0e688aac75a814ada301d054075949afd31f3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\.android\build-cache\1f517a347552d92b5010fca93a4e3b4b5f12633d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="25c8cb628374f9a2d59ff9e1172753751e9a9f84">
+        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cc8ae113340a712ac314533a235a987d44c6edc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\.android\build-cache\8eb5c6065ee36994fbdcbfad885c5b124d43b1d3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a5fa2e3704f51b30b7b47e12a3a2909728799583">
+        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a6c9b9263f1a9881ca21c2fe0347fbf414af5cca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\.android\build-cache\77c60df4121a94e24440b1e6759dfa10d87fff3d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="031cc16b7b6e77b3c050134ecab9fa5c2640a069">
+        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eb9b5fe287919cb7c74ee160ad2514fb2e60bb98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d9991a5ae391d5533df5ce8bde0aa406ee774636">
+        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b2fc689deb611d3614ac3d01131fbadd416e8083\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4ccec8806ebafdb0463107894301f140972e9188\classes.dex" />
+    </item>
+
+</items>

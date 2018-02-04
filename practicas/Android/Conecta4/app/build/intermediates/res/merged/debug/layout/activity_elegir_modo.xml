@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_elegir_modo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/colorAzulModo"
+    tools:context="com.example.miguel.conecta4.ElegirModoActivity">
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botoneselegirmodo"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="@string/tituloBotonModoSolitario"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:id="@+id/modoNormal"
+
+
+        />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botoneselegirmodo"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/tituloBotonModoOnline"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:id="@+id/modoOnline"
+
+
+        />
+
+</LinearLayout>

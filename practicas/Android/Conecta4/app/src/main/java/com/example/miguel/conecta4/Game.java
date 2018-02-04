@@ -6,49 +6,14 @@ package com.example.miguel.conecta4;
  * @author Miguel Ángel Gavilán Merino
  */
 public class Game {
-    /**
-     * Tablero
-     */
     int[][] tablero;
-
-    /**
-     * Número de filas
-     */
     static final int NFIL = 6;
-
-    /**
-     * Número de columnas
-     */
     static final int NCOL = 7;
-
-    /**
-     * Constante vacío a 0
-     */
     static final int VACIO = 0;
-
-    /**
-     * El estado del jugador será 2
-     */
     static final int JUGADOR = 2;
-
-    /**
-     * El estado de la máquina será 1
-     */
     static final int MAQUINA = 1;
-
-    /**
-     * Para comparar si el jugador gana
-     */
     static final String JUGADORGANA = "2222";
-
-    /**
-     * Para comparar si la máquina gana
-     */
     static final String MAQUINAGANA = "1111";
-
-    /**
-     *
-     */
     String estado = "Jugando";
     String ganador = "";
     int turno;
@@ -62,15 +27,8 @@ public class Game {
         inicializarTablero();
     }
 
-    private void setTurno(int turno) {
-        this.turno = turno;
-    }
+    void inicializarTablero() {
 
-    int getTurno() {
-        return turno;
-    }
-
-    private void inicializarTablero() {
         for (int i = 0; i < NFIL; i++) {
             for (int j = 0; j < NCOL; j++) {
                 tablero[i][j] = VACIO;
@@ -78,16 +36,27 @@ public class Game {
         }
     }
 
+
+
     void cambiarTurno() {
-        if (getTurno() == JUGADOR) {
+        if (getTurno() == JUGADOR)
             turno = MAQUINA;
-        } else {
+        else
             turno = JUGADOR;
-        }
+    }
+
+    void setTurno(int turno) {
+        this.turno = turno;
+    }
+
+    int getTurno() {
+        return turno;
     }
 
     boolean isVacio(int fila, int columna) {
-        return tablero[fila][columna] == VACIO;
+        if (tablero[fila][columna] == VACIO)
+            return true;
+        return false;
     }
 
     void setFicha(int i, int j) {
@@ -95,10 +64,15 @@ public class Game {
     }
 
 
+
+
     String fila(int fila) {
         String cadena = "";
         for (int i = 0; i < NCOL; i++) {
             cadena += tablero[fila][i];
+
+
+
         }
 
         return cadena;
@@ -106,7 +80,7 @@ public class Game {
 
     String columna(int columna) {
         String cadena = "";
-        for (int i = 0; i < NFIL - 1; i++) {
+        for (int i = 0; i < NFIL -1; i++) {
             for (int j = 0; j < NCOL; j++) {
                 if (j == columna) {
                     cadena = "";
@@ -117,6 +91,7 @@ public class Game {
                 }
 
 
+
             }
         }
 
@@ -125,9 +100,9 @@ public class Game {
 
     String diagonalIzquierda(int fila, int columna) {
         String cadena = "";
-        for (int i = fila, j = columna; i < NFIL && j < NCOL; i++, j++)
+        for (int i = fila, j= columna; i < NFIL && j < NCOL; i++, j++)
             cadena += tablero[i][j];
-        for (int i = fila - 1, j = columna - 1; j >= 0 && i >= 0; i--, j--)
+        for (int i = fila-1, j= columna - 1; j >= 0 && i >=0; i--, j--)
             cadena = tablero[i][j] + cadena;
 
         return cadena;
@@ -135,9 +110,9 @@ public class Game {
 
     String diagonalDerecha(int fila, int columna) {
         String cadena = "";
-        for (int i = fila, j = columna; i < NFIL && j >= 0; i++, j--)
+        for (int i = fila, j= columna; i < NFIL && j >= 0; i++, j--)
             cadena += tablero[i][j];
-        for (int i = fila - 1, j = columna + 1; j < NCOL && i >= 0; i--, j++)
+        for (int i = fila-1, j= columna + 1; j < NCOL && i >=0; i--, j++)
             cadena = tablero[i][j] + cadena;
 
         return cadena;
@@ -154,6 +129,17 @@ public class Game {
         return false;
     }
 
+    boolean comprobarPartidaOnline(int fila, int columna) {
+        if (fila(fila).contains(JUGADORGANA) || columna(columna).contains(JUGADORGANA) || diagonalDerecha(fila, columna).contains(JUGADORGANA) || diagonalIzquierda(fila, columna).contains(JUGADORGANA)) {
+            ganador = "2";
+            return true;
+        } else if (fila(fila).contains(MAQUINAGANA) || columna(columna).contains(MAQUINAGANA) || diagonalDerecha(fila, columna).contains(MAQUINAGANA) || diagonalIzquierda(fila, columna).contains(MAQUINAGANA)) {
+            ganador = "1";
+            return true;
+        }
+        return false;
+    }
+
     int maquinaRespondeMovimientoA(int columna) {
         String fila;
         int col;
@@ -165,9 +151,9 @@ public class Game {
                 fila += tablero[i][j];
                 col = j;
 
-                if (fila.contains(PATRONGANADOR_A) && col != (NCOL - 1) && tablero[i][col + 1] == VACIO)
+                if(fila.contains(PATRONGANADOR_A) && col!= (NCOL-1) && tablero[i][col + 1] == VACIO)
                     return col + 1;
-                if (fila.contains(PATRONGANADOR_A) && (col - 3) >= 0 && tablero[i][col - 3] == VACIO)
+                if(fila.contains(PATRONGANADOR_A) && (col-3)>=0 && tablero[i][col- 3 ] == VACIO)
                     return col - 3;
 
             }
@@ -178,34 +164,33 @@ public class Game {
         return columna;
     }
 
-    String mostrarTablero() {
-        String cadena = "";
+    String mostrarTablero(){
+        String cadena="";
         for (int i = 0; i < NFIL; i++) {
             for (int j = 0; j < NCOL; j++) {
-                cadena += tablero[i][j];
+                cadena+=  tablero[i][j];
+            }
+
+        }
+        return cadena;
+    }
+    String tableroToString(){
+        String cadena="";
+        for (int i = 0; i < NFIL; i++) {
+            for (int j = 0; j < NCOL; j++) {
+                cadena+=  tablero[i][j];
             }
 
         }
         return cadena;
     }
 
-    String tableroToString() {
-        String cadena = "";
-        for (int i = 0; i < NFIL; i++) {
+    void StringToTablero(String cadena){
+
+        int contador=0;
+        for (int i = 0; i<NFIL; i++) {
             for (int j = 0; j < NCOL; j++) {
-                cadena += tablero[i][j];
-            }
-
-        }
-        return cadena;
-    }
-
-    void StringToTablero(String cadena) {
-
-        int contador = 0;
-        for (int i = 0; i < NFIL; i++) {
-            for (int j = 0; j < NCOL; j++) {
-                tablero[i][j] = Integer.parseInt(cadena.substring(contador, contador + 1));
+                tablero[i][j]=Integer.parseInt(cadena.substring(contador, contador+1));
                 contador++;
             }
 

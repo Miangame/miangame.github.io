@@ -1,0 +1,100 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:5:5-35:19
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Miguel\.android\build-cache\9a26ee7bbbd027e64aff327e513a64985d446986\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Miguel\.android\build-cache\152c7c8b898e9c3a883bdde940523636ceb86d3e\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.example.miguel.conecta4.PantallaCargaActivity
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:11:9-19:20
+	android:theme
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:13:13-56
+	android:name
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:12:13-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.miguel.conecta4.MainActivity
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:20:9-26:20
+	android:configChanges
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:22:13-47
+	android:name
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:21:13-41
+intent-filter#android.intent.action.MAIN
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:23:13-25:29
+activity#com.example.miguel.conecta4.AboutActivity
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:27:9-51
+	android:name
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:27:19-48
+activity#com.example.miguel.conecta4.ElegirModoActivity
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:28:9-56
+	android:name
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:28:19-53
+activity#com.example.miguel.conecta4.ModoOnlineActivity
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:29:9-56
+	android:name
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:29:19-53
+activity#com.example.miguel.conecta4.VerPartidaActivity
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:30:9-56
+	android:name
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:30:19-53
+activity#com.example.miguel.conecta4.PartidaOnlineActivity
+ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:31:9-34:61
+	android:screenOrientation
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:34:13-49
+	android:configChanges
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:33:13-48
+	android:name
+		ADDED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml:32:13-50
+uses-sdk
+INJECTED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:27.0.2] C:\Users\Miguel\.android\build-cache\77c60df4121a94e24440b1e6759dfa10d87fff3d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Miguel\.android\build-cache\6f3aea74266a2328d693ae9353aaedee4cba45cb\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Miguel\.android\build-cache\1f517a347552d92b5010fca93a4e3b4b5f12633d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Miguel\.android\build-cache\d52aa834409cf1fb3a56999b7e1d2419878f34a8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Miguel\.android\build-cache\57658be84e0e92a898b5ed1b511791d73277ecfd\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Miguel\.android\build-cache\667c6c0d0838d69a35eb131f23623884f3478b56\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Miguel\.android\build-cache\678f3f98ad8ab075679f4fad7e2ce560087465f6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Miguel\.android\build-cache\393dbe6502febf3a29b3592cb49aac584211afd9\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Miguel\.android\build-cache\12a936f5d11dedac4a075bde8794cbdd77268fd7\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Miguel\.android\build-cache\5a5a5b19be83c15da7f86f2e2fd0d8086f49bfaa\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Miguel\.android\build-cache\8eb5c6065ee36994fbdcbfad885c5b124d43b1d3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Miguel\.android\build-cache\ac8476f021f8441515e354501c6322b078fd8e75\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Miguel\.android\build-cache\4ece5d001a7e2e9a158b4e05c19fd7bb8e08b689\output\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Miguel\.android\build-cache\9a26ee7bbbd027e64aff327e513a64985d446986\output\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Miguel\.android\build-cache\152c7c8b898e9c3a883bdde940523636ceb86d3e\output\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\src\main\AndroidManifest.xml
