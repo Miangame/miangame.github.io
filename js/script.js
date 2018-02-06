@@ -1,8 +1,11 @@
 $(function () {
+    let fechaActual = new Date();
+    let anioActual = fechaActual.getFullYear();
+
     $(window).scroll(function () {
         if ($(window).scrollTop() > 400) {
             $(".barra").each(function () {
-                var percentage = parseInt($(this).html());
+                let percentage = parseInt($(this).html());
                 if (percentage > 0) {
                     $(this).animate({ 'width': '' + percentage + '%' }, 2000);
                 } else {
@@ -29,4 +32,6 @@ $(function () {
             scrollTop: $("#proyectos").offset().top
         }, 1000);
     });
+
+    $("#fecha").html(anioActual);
 });
