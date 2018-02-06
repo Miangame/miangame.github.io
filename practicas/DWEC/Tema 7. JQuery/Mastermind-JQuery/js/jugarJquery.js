@@ -191,7 +191,11 @@ let init = function () {
         },
         buttons: {
             "Reiniciar": function () {
-                window.location.reload();
+                $(this).dialog("close");
+                setTimeout(function(){
+                    window.location.reload();
+                },1000)
+               
             },
             "Salir": function () {
                 window.close();
