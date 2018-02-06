@@ -71,7 +71,7 @@ let quitarEventoLineaAnterior = function () {
 let crearNuevaLinea = function () {
     quitarEventoLineaAnterior();
 
-    let contenido = "<div id='filaRellenar' class='intento" + contadorLinea + "'>" +
+    let contenido = "<div class='filaRellenar intento" + contadorLinea + "'>" +
         "<div class='circuloRellenar circuloRellenar" + contadorLinea + "'></div>" +
         "<div class='circuloRellenar circuloRellenar" + contadorLinea + "'></div>" +
         "<div class='circuloRellenar circuloRellenar" + contadorLinea + "'></div>" +
@@ -142,7 +142,9 @@ let comprobar = function () {
         }
 
         if (contador2 == 4) {
-            $pantallaNueva.css("display", "block");
+            //$pantallaNueva.css("display", "block");
+            $pantallaNueva.dialog("open");
+
         }
 
         if (objetoComprobar.esta > 0) {
@@ -161,7 +163,7 @@ let comprobar = function () {
     }
 }
 
-$(function () {
+let init = function () {
     masterMind.init();
     masterMind.mostrar();
 
@@ -174,18 +176,36 @@ $(function () {
     $divIzqda = $("#izquierda");
     $pantallaNueva = $("#pantallaFin");
 
+    $pantallaNueva.dialog({
+        modal: true,
+        closeOnEscape: false,
+        autoOpen: false,
+        open: function (event, ui) { $(".ui-dialog-titlebar-close", ui.dialog).hide(); },
+        show: {
+            effect: "blind",
+            duration: 1000,
+        },
+        hide: {
+            effect: "explode",
+            duration: 1000
+        },
+        buttons: {
+            "Reiniciar": function () {
+                window.location.reload();
+            },
+            "Salir": function () {
+                window.close();
+            }
+        }
+    });
+
     $(".circulo").on("click", aniadirCirculo);
 
     $("#check").on("click", comprobar);
 
-    $("#salir").on("click", function () {
-        window.close();
-    });
-
-    $("#reiniciar").on("click", function () {
-        init();
-        $pantallaNueva.style = "display: none;"
-    });
-
     crearNuevaLinea();
+};
+
+$(function () {
+    init();
 });

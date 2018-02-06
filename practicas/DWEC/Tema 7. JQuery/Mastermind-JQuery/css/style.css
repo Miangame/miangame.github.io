@@ -23,7 +23,7 @@ main {
     grid-template-columns: 85% 15%;
 }
 
-#filaRellenar{
+.filaRellenar{
     margin-bottom: 100px;
 }
 
@@ -120,19 +120,11 @@ main {
     margin: 20px;
 }
 
-#pantallaFin {
-    display: none;
-    position: absolute;
-    width: 50%;
-    height: 800px;
-    text-align: center;
-}
-
 #pantallaFin h2 {
-    font-size: 5em;
-    color: #228DFF;
-    font-family: Iceland;
-    animation: neon2 1.5s ease-in-out infinite alternate;
+    *font-size: 5em;
+    *color: #228DFF;
+    *font-family: Iceland;
+    *animation: neon2 1.5s ease-in-out infinite alternate;
 }
 
 @keyframes neon2 {
@@ -146,14 +138,14 @@ main {
 
 
 #pantallaFin a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    transition: all 0.7s ease;
+    *text-decoration: none;
+    *color: black;
+    *font-weight: bold;
+    *background-color: white;
+    *border-radius: 10px;
+    *padding: 20px;
+    *margin: 20px;
+    *transition: all 0.7s ease;
 }
 
 #pantallaFin a:hover, #jugar:hover {
