@@ -1,12 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Prácticas JavaScript - Miguel Ángel Gavilán Merino</title>
+    <meta name="author" content="Miguel Ángel Gavilán Merino">
+    <title>Portfolio de Miguel Ángel Gavilán Merino</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/css/font-awesome.min.css">
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
+
 <body>
-    
+    <div id="header">
+        <h2>Hola<span class="signo">;</span>
+        </h2>
+        <h3>Soy Miguel Ángel Gavilán Merino<span class="signo punto">.</span> Desarrollador web<span class="signo punto">.</span>
+        </h3>
+    </div>
+
+    <main>
+        <div id="sobreMi">
+            <img src="imagenes/miFoto.jpeg" alt="">
+            <p id="textoSobreMi">
+                Soy una persona trabajadora, carismática y un poco perfeccionista. Nunca pienso que algo está lo suficientemente bien. Me
+                encanta sentirme realizado por lo que nunca paro de investigar sobre tecnología en general y programación
+                en particular.
+            </p>
+        </div>
+
+        <div id="skills">
+            <div id="muestraHabilidades">
+                <h2>SKILLS</h2>
+                <div class="habilidad">
+                    <p>HTML&CSS</p>
+                    <div class="barra">90%</div>
+                </div>
+                <div class="habilidad">
+                    <p>JavaScript</p>
+                    <div class="barra">85%</div>
+                </div>
+                <div class="habilidad">
+                    <p>PHP</p>
+                    <div class="barra">95%</div>
+                </div>
+
+                <div class="habilidad">
+                    <p>MySql</p>
+                    <div class="barra">85%</div>
+                </div>
+
+                <div class="habilidad">
+                    <p>Java</p>
+                    <div class="barra">80%</div>
+                </div>
+
+                <div class="habilidad">
+                    <p>C/C++</p>
+                    <div class="barra">70%</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="proyectos">
+            <h2>Mis proyectos</h2>
+            <section id="contenidoProyectos">
+                    <article class="proyecto">
+                            <h3>Casas rurales</h3>
+                        <a href="https://miangame.github.io/practicas/DIWEB/Tema6/practica12/" target="_blank"><img src="imagenes/proyectoCasasRurales.png" alt=""></a>
+                    </article>
+                    <article class="proyecto">
+                            <h3>Gestor de tareas</h3>
+                        <a href="https://miangame.github.io/practicas/DIWEB/Tema6/practica11/" target="_blank"><img src="imagenes/gestorDeTareas.png" alt=""></a>
+                    </article>
+                    <article class="proyecto">
+                            <h3>Mastermind javaScript</h3>
+                        <a href="https://miangame.github.io/practicas/DWEC/Tema%204.%20Programaci%C3%B3n%20con%20arrays,%20funciones%20y%20objetos/Mastermind/" target="_blank"><img src="imagenes/mastermind.png" alt=""></a>
+                    </darticleiv>
+                </section>
+           
+        </div>
+    </main>
+
+    <aside>
+        <div class="btnAside" id="btnAsideSobre"><a href=""></a></div>
+        <div class="btnAside" id="btnAsideSkills"><a href=""></a></div>
+        <div class="btnAside" id="btnAsideProyectos"><a href="#proyectos"></a></div>
+    </aside>
+
+    <footer>
+            <p>· <span id="fecha"></span> &copy; Miguel Ángel Gavilán Merino ·</p>
+            <a id="correo" href="mailto:miangame1@gmail.com">miangame1@gmail.com</a>
+            <div id="iconos">
+                <a href="https://twitter.com/miguel5gavilan" id="twitter" class="fa fa-twitter-square fa-3x" target="_blank"></a>
+                <a href="https://www.facebook.com/miguel.gavilanmerino" id="facebook" class="fa fa-facebook-square fa-3x"
+                   target="_blank"></a>
+                <a href="https://github.com/Miangame" id="github" class="fa fa-github-square fa-3x" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/miguel-%C3%A1ngel-gavil%C3%A1n-merino-111438138/" id="linkedin" class="fa fa-linkedin-square fa-3x" target="_blank"></a>
+            </div>
+    </footer>
 </body>
+
 </html>
