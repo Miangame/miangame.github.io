@@ -1,0 +1,3 @@
+Juego: https://miangame.github.io/practicas/DWEC/Tema%207.%20JQuery/Mastermind-JQuery/juego.html
+
+Código: https://github.com/Miangame/miangame.github.io/tree/master/practicas/DWEC/Tema%207.%20JQuery/Mastermind-JQuery

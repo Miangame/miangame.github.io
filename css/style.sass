@@ -11,6 +11,7 @@ main
 #header
     height: 100vh
     display: flex
+    text-align: center
     flex-flow: column
     align-items: center
     justify-content: center
@@ -65,7 +66,7 @@ main
         width: 30%
 
     img
-        margin-top: 20px
+        margin-top: 10px
         margin-bottom: 18px
         border-radius: 50%
         width: 90px
@@ -137,7 +138,10 @@ main
             width: 80%
             height: 200px
             box-shadow: 10px 10px 122px 3px rgba(0,0,0,0.46)
+            transition: transform 1s
             &:hover
+                transform: scale(1.1)
+                transition: transform 1s
                 opacity: 0.8
             @media screen and ($resolucionPc)
                 height: 300px
@@ -156,12 +160,22 @@ aside
         position: fixed
         top: 50vh
         right: 0
-        .btnAside
-            border-radius: 50%
-            width: 20px
-            height: 20px
-            margin: 20px
-            background-color: $secondaryColor
+        .lineaAside
+            display: flex
+            flex-flow: row-reverse 
+            .btnAside
+                border-radius: 50%
+                width: 25px
+                height: 25px
+                margin: 20px
+                background-color: #262626
+                &:hover
+                    cursor: pointer
+            .textoAside
+                display: flex
+                align-items: center
+                font-weight: bold
+                visibility: hidden
 
 
 footer 
@@ -171,6 +185,7 @@ footer
     text-align: center
     height: 200px
     width: 100%
+    margin-top: 50px
     p 
         color: #fff
         margin: 25px 5px 0px

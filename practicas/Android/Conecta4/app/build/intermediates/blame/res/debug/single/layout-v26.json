@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout-v26\\abc_screen_toolbar.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout-v26/abc_screen_toolbar.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout-v26/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26\\abc_screen_toolbar.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout-v26\\abc_screen_toolbar.xml"
     }
 ]

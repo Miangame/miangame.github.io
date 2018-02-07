@@ -1,10 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

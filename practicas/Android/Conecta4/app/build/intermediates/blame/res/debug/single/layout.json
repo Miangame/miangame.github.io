@@ -1,266 +1,522 @@
 [
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_partida_online.xml",
-        "source": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_partida_online.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_partida_online.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_partida_online.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ver_partida.xml",
-        "source": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_ver_partida.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ver_partida.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_ver_partida.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/home/miguel/.android/build-cache/4a1ccdfb68295cb1474bbad28f378b066cdd8a41/output/res/layout/notification_template_lines_media.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_screen_simple.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/miguel/.android/build-cache/4a1ccdfb68295cb1474bbad28f378b066cdd8a41/output/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_media_action.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/home/miguel/.android/build-cache/4a1ccdfb68295cb1474bbad28f378b066cdd8a41/output/res/layout/notification_template_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_layout_snackbar_include.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_elegir_modo.xml",
-        "source": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_elegir_modo.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modo_online.xml",
-        "source": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_modo_online.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modo_online.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_modo_online.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_item.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/tooltip.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/tooltip.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_media.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\carga.xml",
-        "source": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\carga.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_layout_tab_text.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_text_input_password_icon.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_bottom_navigation_item.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/miguel/.android/build-cache/4a1ccdfb68295cb1474bbad28f378b066cdd8a41/output/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
-        "source": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_about.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_about.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_preferencias.xml",
-        "source": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\fragment_preferencias.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/miguel/.android/build-cache/4a1ccdfb68295cb1474bbad28f378b066cdd8a41/output/res/layout/notification_media_cancel_action.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_item_separator.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_menu_item.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\ac8476f021f8441515e354501c6322b078fd8e75\\output\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\ac8476f021f8441515e354501c6322b078fd8e75\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar_include.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\layout\\layout_snackbar_include.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar_include.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\layout\\layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_search_view.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_text_input_password_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_navigation_item_subheader.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\ac8476f021f8441515e354501c6322b078fd8e75\\output\\res\\layout\\notification_template_part_time.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/miguel/.android/build-cache/055b912305a21c4588b7890bc3d9dba665937d19/output/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tooltip.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\tooltip.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/miguel/.android/build-cache/4a1ccdfb68295cb1474bbad28f378b066cdd8a41/output/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_menu.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_menu_item_action_area.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_big_media.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_bottom_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\layout\\layout_snackbar.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_big_media_custom.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_item_header.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/activity_modo_online.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/src/main/res/layout/activity_modo_online.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/miguel/.android/build-cache/4a1ccdfb68295cb1474bbad28f378b066cdd8a41/output/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/activity_about.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_elegir_modo.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\activity_elegir_modo.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/carga.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/src/main/res/layout/carga.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\carga.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\carga.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/activity_ver_partida.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/src/main/res/layout/activity_ver_partida.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/fragment_preferencias.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/src/main/res/layout/fragment_preferencias.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/activity_partida_online.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/src/main/res/layout/activity_partida_online.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_preferencias.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\layout\\fragment_preferencias.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/activity_elegir_modo.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/src/main/res/layout/activity_elegir_modo.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/miguel/.android/build-cache/055b912305a21c4588b7890bc3d9dba665937d19/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
+        "source": "/home/miguel/.android/build-cache/4a1ccdfb68295cb1474bbad28f378b066cdd8a41/output/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\ac8476f021f8441515e354501c6322b078fd8e75\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tooltip.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\tooltip.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\1f517a347552d92b5010fca93a4e3b4b5f12633d\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\layout\\layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/miguel/.android/build-cache/4a1ccdfb68295cb1474bbad28f378b066cdd8a41/output/res/layout/notification_template_media.xml"
     }
 ]

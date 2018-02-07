@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\raw\\musica.mp3",
-        "source": "C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\raw\\musica.mp3"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\raw\\musica.mp3",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\src\\main\\res\\raw\\musica.mp3"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/raw/musica.mp3",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/src/main/res/raw/musica.mp3"
     }
 ]
