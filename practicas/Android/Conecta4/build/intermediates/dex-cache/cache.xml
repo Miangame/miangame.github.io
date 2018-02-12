@@ -2,76 +2,193 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Miguel\.android\build-cache\12a936f5d11dedac4a075bde8794cbdd77268fd7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.3"
-        sha1="9296d6f092fcdba4fafb6ac26546a39babdab46a">
-        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5665435598a160f9839795f1cd48a5238f047126\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Miguel\.android\build-cache\9a26ee7bbbd027e64aff327e513a64985d446986\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.3"
-        sha1="9bdfc3e83c6bc1f8bc5807cdaf7e94ac884a2a0d">
-        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84e7de5ef408bb6134dc709e8aa1af53dcb7ee9a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Miguel\.android\build-cache\6f3aea74266a2328d693ae9353aaedee4cba45cb\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.3"
-        sha1="bcd0bcdef85b31a656af76e39c0c95ce70800772">
-        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4c0e688aac75a814ada301d054075949afd31f3e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Miguel\.android\build-cache\1f517a347552d92b5010fca93a4e3b4b5f12633d\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/4a1ccdfb68295cb1474bbad28f378b066cdd8a41/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="25c8cb628374f9a2d59ff9e1172753751e9a9f84">
-        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cc8ae113340a712ac314533a235a987d44c6edc7\classes.dex" />
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_91ab519841f26fa84e714d64fd61c0bdc2bbb55c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Miguel\.android\build-cache\8eb5c6065ee36994fbdcbfad885c5b124d43b1d3\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/99ef5f4a7865a2c9f64c597fef12c7f4b65c9389/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="a5fa2e3704f51b30b7b47e12a3a2909728799583">
-        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a6c9b9263f1a9881ca21c2fe0347fbf414af5cca\classes.dex" />
+        sha1="618f75fe11febf263e3234c7da7dc892232a5608">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_4db34b643821e5bfa2ecfb7f4cf3348ab667bf2a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Miguel\.android\build-cache\77c60df4121a94e24440b1e6759dfa10d87fff3d\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/f55798fca7359abe8d4c581a216827960e9c5b70/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7cc5473b9cf4ea159a263cd477fb3ecb2987b96">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_8780984679081db81af2dda1030f5df519435409.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/common-1.0.0_82e962153b4c98892032bce34f4802f75edd7950.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/435ca6757ecb5b1a9f16cbca98fff30847ce9899/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="031cc16b7b6e77b3c050134ecab9fa5c2640a069">
-        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eb9b5fe287919cb7c74ee160ad2514fb2e60bb98\classes.dex" />
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_8fe10d4dac73eb0387900e990461b96f313382ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/6954d397a7148ff787014587b3c7b548bcdbc58e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="bcd0bcdef85b31a656af76e39c0c95ce70800772">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_c25fd4c84e098f540eb48f77ae27da27c099df2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/aaf9b453b511a9424fbd03bf696373b0c605e2b4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="caa03787689212c10939f308a55a8dc8a3333ed2">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_bda0f97e76029e3940eb32ace0fac373c6319e31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="7d7f60c4783872861222166f6164215f8951c7b1">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/common-1.0.3_79154711289a3a888a5bd060b8eb52f785931a64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/4f02f9594b1f5cf4628522f6e3e58fc66ef3f86f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_572843a96debf8ccbe74a3db1b010190a3d366da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0b9ef4342c934a1a8b107506273dc8061662a322">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/support-annotations-27.0.2_52ee2ffdbc23a5c88c75fb2efe051ea5f3ec32b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/1611edff56ddea13694542263940ab05b543ab37/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ac2ce6027755bcf49442e70597bec0feb9064f68">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_057055371a5cd0551adeacd55a21da121347d25b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/22383ff1808874c7413ecd84d4ce235f9da2edb0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9296d6f092fcdba4fafb6ac26546a39babdab46a">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_333a33f88d6a9e427c99efa645aef46d5103b36d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/055b912305a21c4588b7890bc3d9dba665937d19/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b432e82447a3af781e927b9ba0bbb9fe2a496d4a">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_f7290d4826e3682ae01736d5d64d31b3d8ba6a53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/9bea0870190e08ea39a3efd8a18d7d31b8634e88/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fe3916317a699975bcce0cba2d13fd2d8cf88922">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_7cbce3c078b9fe31aec3caff28b6c6644fb851e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_1a7cc593887275d08ba4ca495f90b3703e2d6532.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="04cd0cacbedcb338f64665b88bad64d145325fbd">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_4b0d970a3dacfafb3cab31011fd5ad2d29853c2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/c7417f324829a174183d290b87301bb697a306c2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a5fa2e3704f51b30b7b47e12a3a2909728799583">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_0b087c4847f16367c3bcd6b108d32acad2534a74.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="27.0.3"
-        sha1="d9991a5ae391d5533df5ce8bde0aa406ee774636">
-        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b2fc689deb611d3614ac3d01131fbadd416e8083\classes.dex" />
+        sha1="a71f3df098a9747cfd6d8804fda7b7619ed50325">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fdff8a0a772ce82bba9213431b21a4ac683b7c57/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="27.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4ccec8806ebafdb0463107894301f140972e9188\classes.dex" />
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8d0771912b54b0b5923f03bcce740c4a50f39de1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/4f1ef9ba2b6ab682f21c23b0c62e629c4892c71b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9bdfc3e83c6bc1f8bc5807cdaf7e94ac884a2a0d">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_d53277e3c9001e702fc275344a6f47eb4437dfa4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/miguel/.android/build-cache/9491b20aceb8410146193773dc2066a84d44c777/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ed6560f31a6a40b5965f5879d8f2eab1f68def05">
+        <dex dex="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/pre-dexed/debug/classes_c9104ed89236c927dd3da6a6006c944f2a6d4c56.jar" />
     </item>
 
 </items>

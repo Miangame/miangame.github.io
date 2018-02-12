@@ -1,0 +1,83 @@
+#bloqueURL {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    *border: 1px solid;
+}
+
+#cajaURL {
+    border: 1px solid;
+    background-color: #FAFAFA;
+    display: inline-block;
+    min-width: 90vh;
+    height: 20px;
+}
+
+#botonMostrar {
+    border: 1px solid;
+    background-color: rgb(0, 238, 255);
+    font-weight: bold;
+    width: 8%;
+    padding: 1%;
+    text-align: center;
+    margin: 2%;
+    cursor: pointer;
+}
+
+#bloqueContenido {
+    *border: 1px solid;
+    display: flex;
+    flex-flow: row;
+}
+
+#bCIzquierda {
+    *border: 1px solid;
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+}
+
+#bCDerecha {
+    *border: 2px solid grey;
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+}
+
+#bCIzquierda1 {
+    border: 2px solid grey;
+    width: 85%;
+    height: 40vh;
+    background-color: #fafafa;
+    overflow: auto;
+}
+
+#bCIzquierda2 {
+    border: 2px solid grey;
+    width: 85%;
+    min-height: 25vh;
+    background-color: #fafafa;
+}
+
+#bCDerecha1 {
+    border: 2px solid grey;
+    width: 85%;
+    min-height: 20vh;
+    background-color: #FAFAFA;
+}
+
+#bCDerecha2 {
+    border: 2px solid grey;
+    width: 85%;
+    min-height: 15vh;
+    background-color: #FAFAFA;
+}
+
+input,
+#bCIzquierda1,
+#bCIzquierda2,
+#bCDerecha1,
+#bCDerecha2,#botonMostrar {
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+}

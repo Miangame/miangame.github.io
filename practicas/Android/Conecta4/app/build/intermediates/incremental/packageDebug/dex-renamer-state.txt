@@ -1,7 +1,7 @@
-#Sat Feb 03 20:47:31 CET 2018
-base.0=C\:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b2fc689deb611d3614ac3d01131fbadd416e8083
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4ccec8806ebafdb0463107894301f140972e9188\\classes.dex
-base.1=C\:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4ccec8806ebafdb0463107894301f140972e9188
-file.0=C\:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b2fc689deb611d3614ac3d01131fbadd416e8083\\classes.dex
+#Thu Feb 08 09:58:38 CET 2018
+base.0=/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fdff8a0a772ce82bba9213431b21a4ac683b7c57
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8d0771912b54b0b5923f03bcce740c4a50f39de1/classes.dex
+base.1=/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8d0771912b54b0b5923f03bcce740c4a50f39de1
+file.0=/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fdff8a0a772ce82bba9213431b21a4ac683b7c57/classes.dex

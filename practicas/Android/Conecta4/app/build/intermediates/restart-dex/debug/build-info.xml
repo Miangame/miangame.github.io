@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="27"
+    abi="x86"
+    api-level="25"
     build-mode="FULL"
-    density="xxhdpi"
+    density="560dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1517687243576"
+    timestamp="1518080318241"
     token="-1897898329791787739"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -18,87 +18,153 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1291" />
+        duration="0" />
     <task
         name="verifier"
         duration="0" />
 
     <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\outputs\apk\app-debug.apk"
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
     <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1517687243576"
+        timestamp="1518080318241"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\outputs\apk\app-debug.apk"
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\Users\Miguel\AndroidStudioProjects\Conecta4\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
     </build>
 

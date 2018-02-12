@@ -71,16 +71,17 @@ let quitarEventoLineaAnterior = function () {
 let crearNuevaLinea = function () {
     quitarEventoLineaAnterior();
 
-    let contenido = "<div class='filaRellenar intento" + contadorLinea + "'>" +
-        "<div class='circuloRellenar circuloRellenar" + contadorLinea + "'></div>" +
-        "<div class='circuloRellenar circuloRellenar" + contadorLinea + "'></div>" +
-        "<div class='circuloRellenar circuloRellenar" + contadorLinea + "'></div>" +
-        "<div class='circuloRellenar circuloRellenar" + contadorLinea + "'></div>" +
-        "<div class='circuloComprobar circuloComprobar" + contadorLinea + "'></div>" +
-        "<div class='circuloComprobar circuloComprobar" + contadorLinea + "'></div>" +
-        "<div class='circuloComprobar circuloComprobar" + contadorLinea + "'></div>" +
-        "<div class='circuloComprobar circuloComprobar" + contadorLinea + "'></div>" +
-        "</div>";
+    let contenido = "<div class='filaRellenar intento" + contadorLinea + "'>"
+
+    for (let i = 0; i < 4; i++) {
+        contenido += "<div class='circuloRellenar circuloRellenar" + contadorLinea + "'></div>";
+    }
+
+    for (let i = 0; i < 4; i++) {
+        contenido += "<div class='circuloComprobar circuloComprobar" + contadorLinea + "'></div>";
+    }
+
+    contenido += "</div>";
 
     $divIzqda.append(contenido);
 
@@ -192,10 +193,10 @@ let init = function () {
         buttons: {
             "Reiniciar": function () {
                 $(this).dialog("close");
-                setTimeout(function(){
+                setTimeout(function () {
                     window.location.reload();
-                },1000)
-               
+                }, 1000)
+
             },
             "Salir": function () {
                 window.close();
