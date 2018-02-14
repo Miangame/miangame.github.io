@@ -8,6 +8,8 @@
     <meta name="author" content="Miguel Ángel Gavilán Merino">
     <title>Portfolio de Miguel Ángel Gavilán Merino</title>
 
+    <link rel="icon" type="image/png" href="imagenes/favicon.ico" />
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/css/font-awesome.min.css">
@@ -15,25 +17,22 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/escribir.js"></script>
 </head>
 
 <body>
     <div id="header">
-        <h2>
-            Hola
-            <span class="signo">;</span>
-        </h2>
-        <h3>
+        <p id="hola">
+            Hola<span class="signo">;</span>
+        </p>
+        <h1>
             <p>
-                Soy Miguel Ángel Gavilán Merino
-                <span class="signo punto">.</span>
+                Soy Miguel Ángel Gavilán Merino<span class="signo punto">.</span>
             </p>
             <p id="parrafoEscribir">
-                <span id="escribir">Web Developer
-                    <span class="signo punto">.</span>
-                </span>
+                <span id="escribir" class="write"></span>
             </p>
-        </h3>
+        </h1>
     </div>
 
     <main>
@@ -50,81 +49,74 @@
             <div id="muestraHabilidades">
                 <h2>SKILLS</h2>
                 <div class="habilidad">
-                    <p>HTML&CSS</p>
+                    <p>
+                        <img src="imagenes/html-5-logo.svg" alt=""> &
+                        <img src="imagenes/css-3.svg" alt="">
+                    </p>
                     <div class="barra">90%</div>
                 </div>
                 <div class="habilidad">
-                    <p>JavaScript</p>
+                    <p>
+                        <img src="imagenes/js-file.svg" alt="">
+                    </p>
                     <div class="barra">85%</div>
                 </div>
                 <div class="habilidad">
-                    <p>PHP</p>
+                    <p>
+                        <img src="imagenes/php.svg" alt="">
+                    </p>
                     <div class="barra">95%</div>
                 </div>
 
                 <div class="habilidad">
-                    <p>MySql</p>
+                    <p>
+                        <img src="imagenes/mysql.svg" alt="">
+                    </p>
                     <div class="barra">85%</div>
                 </div>
 
                 <div class="habilidad">
-                    <p>Java</p>
+                    <p>
+                        <img src="imagenes/java.svg" alt="">
+                    </p>
                     <div class="barra">80%</div>
                 </div>
 
                 <div class="habilidad">
-                    <p>C/C++</p>
+                    <p>
+                        <img src="imagenes/c-logo.svg" alt="">
+                    </p>
                     <div class="barra">70%</div>
                 </div>
             </div>
         </div>
 
-        <div id="slider">
-            <a href="#" class="control_next">></a>
-            <a href="#" class="control_prev"><</a>
-            <ul>
-                <li> slide1</li>
-                <li style="background: #aaa;">SLIDE 2</li>
-                <li>SLIDE 3</li>
-                <li style="background: #aaa;">SLIDE 4</li>
-            </ul>
-        </div>
-
         <div id="proyectos">
             <h2>Mis proyectos</h2>
-            <section id="contenidoProyectos">
-                <article class="proyecto">
-                    <h3>Casas rurales</h3>
-                    <a href="https://miangame.github.io/practicas/DIWEB/Tema6/practica12/" target="_blank">
-                        <img src="imagenes/proyectoCasasRurales.png" alt="">
-                    </a>
-                </article>
-                <article class="proyecto">
-                    <h3>Gestor de tareas</h3>
-                    <a href="https://miangame.github.io/practicas/DIWEB/Tema6/practica11/" target="_blank">
-                        <img src="imagenes/gestorDeTareas.png" alt="">
-                    </a>
-                </article>
-                <article class="proyecto">
-                    <h3>Mastermind javaScript</h3>
-                    <a href="https://miangame.github.io/practicas/DWEC/Tema%204.%20Programaci%C3%B3n%20con%20arrays,%20funciones%20y%20objetos/Mastermind/"
-                        target="_blank">
-                        <img src="imagenes/mastermind.png" alt="">
-                    </a>
-                </article>
-                <article class="proyecto">
-                    <h3>Servidor IES Gran Capitán</h3>
-                    <a href="http://cpd.iesgrancapitan.org:9101/~gamemi/" target="_blank">
-                        <img src="imagenes/servidor.png" alt="">
-                    </a>
-                </article>
-                <article class="proyecto">
-                    <h3>Proyecto Java</h3>
-                    <a href="https://github.com/Miangame/Combate-pokemon-Java" target="_blank">
-                        <img src="imagenes/proyectoJava.png" alt="">
-                    </a>
-                </article>
-            </section>
+
+            <div id="slider">
+                <a href="#" class="control_next">></a>
+                <a href="#" class="control_prev">
+                    <</a>
+                        <ul>
+                            <li id="proyectoCasas">
+                                <a href="https://miangame.github.io/practicas/DIWEB/Tema6/practica12/" target="_blank">Casas rurales</a>
+                            </li>
+                            <li id="gestorTareas">
+                                <a href="https://miangame.github.io/practicas/DIWEB/Tema6/practica11/" target="_blank">Gestor de tareas</a>
+                            </li>
+                            <li id="mastermind">
+                                <a href="https://miangame.github.io/practicas/DWEC/Tema%204.%20Programaci%C3%B3n%20con%20arrays,%20funciones%20y%20objetos/Mastermind/"
+                                    target="_blank">Mastermind JS</a>
+                            </li>
+                            <li id="servidor">
+                                <a href="http://cpd.iesgrancapitan.org:9101/~gamemi/" target="_blank">Servidor IES GC</a>
+                            </li>
+                            <li id="proyectoJava">
+                                <a href="https://github.com/Miangame/Combate-pokemon-Java" target="_blank">Proyecto Java</a>
+                            </li>
+                        </ul>
+            </div>
 
         </div>
     </main>

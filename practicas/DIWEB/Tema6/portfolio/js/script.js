@@ -1,18 +1,19 @@
 $(function () {
     let fechaActual = new Date();
     let anioActual = fechaActual.getFullYear();
-
+    let bandera = false;
     /**
      * Animación barras de habilidad
      */
     $(window).scroll(function () {
-        if ($(window).scrollTop() > 400) {
+        if ($(window).scrollTop() > 400 && !bandera) {
             $(".barra").each(function () {
-                let percentage = parseInt($(this).html());
-                if (percentage > 0) {
+                let porcentaje = parseInt($(this).html());
+                if (porcentaje > 0) {
                     $(this).animate({
-                        'width': '' + percentage + '%'
+                        'width': '' + porcentaje + '%'
                     }, 2000);
+                    bandera = true;
                 } else {
                     $(this).css({
                         'color': 'black',
@@ -21,7 +22,9 @@ $(function () {
                 }
             })
         }
+
     });
+
 
     /**
      * Mostrar Texto Aside
@@ -86,5 +89,4 @@ $(function () {
      */
     $("#fecha").html(anioActual);
 
-    
 });

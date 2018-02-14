@@ -5,7 +5,7 @@ main {
 }
 
 #header {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   text-align: center;
   flex-flow: column;
@@ -15,32 +15,32 @@ main {
   width: 100%;
 }
 
-#header h2 {
+#header #hola {
   font: normal normal normal 100px/1.4em 'eb garamond',serif;
   color: #302D2D;
   margin: 0;
 }
 
 @media screen and (min-width: 630px) {
-  #header h2 {
+  #header #hola {
     font: normal normal normal 210px/1.4em 'eb garamond',serif;
   }
 }
 
-#header h3 {
+#header h1 {
   font: normal normal normal 30px/1.4em 'eb garamond',serif;
   color: #302D2D;
   margin: 0 15px;
   width: 100%;
 }
 
-#header h3 #parrafoEscribir {
+#header h1 #parrafoEscribir {
   display: flex;
   justify-content: center;
 }
 
 @media screen and (min-width: 630px) {
-  #header h3 {
+  #header h1 {
     font: normal normal normal 50px/1.4em 'eb garamond',serif;
     margin: 0 15px;
   }
@@ -61,23 +61,14 @@ main {
 }
 
 #escribir {
+  min-height: 45px;
   border-right: .06em solid #fff;
-  width: 200px;
-  display: block;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: escribir 2s steps(28, end), barra 0.4s step-end infinite alternate;
+  animation: barra .4s step-end infinite alternate;
 }
 
 @media screen and (min-width: 630px) {
   #escribir {
-    width: 320px;
-  }
-}
-
-@keyframes escribir {
-  0% {
-    width: 0;
+    min-height: 70px;
   }
 }
 
@@ -140,7 +131,7 @@ main {
 }
 
 #skills {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   margin-top: -150px;
   background-image: url("../imagenes/imagen2.jpg");
@@ -177,12 +168,17 @@ main {
   color: #333B50;
 }
 
+.habilidad p img {
+  height: 35px;
+  width: 35px;
+}
+
 .habilidad div {
   height: 10px;
   color: #fff;
   font-weight: bold;
   text-align: right;
-  background: #00D646;
+  background: rgba(51, 59, 80, 0.856);
   width: 0%;
   padding: 0.8em;
   border-radius: 4px;
@@ -206,47 +202,118 @@ main {
   }
 }
 
-#proyectos .proyecto {
-  margin-bottom: 10px;
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 200px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 168px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-width: 630px) {
-  #proyectos .proyecto h3 {
-    font-size: 35px;
-  }
-}
-
-#proyectos .proyecto img {
-  width: 80%;
-  height: 200px;
-  box-shadow: 10px 10px 122px 3px rgba(0, 0, 0, 0.46);
-  transition: transform 1s;
-}
-
-#proyectos .proyecto img:hover {
-  transform: scale(1.1);
-  transition: transform 1s;
-  opacity: 0.8;
-}
-
-@media screen and (min-width: 1140px) {
-  #proyectos .proyecto img {
+  #slider ul li {
+    width: 500px;
     height: 300px;
   }
 }
 
-@media screen and (min-width: 630px) {
-  #proyectos #contenidoProyectos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+@media screen and (min-width: 1140px) {
+  #slider ul li {
+    width: 700px;
+    height: 400px;
   }
 }
 
-@media screen and (min-width: 1140px) {
-  #proyectos #contenidoProyectos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+#slider ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 630px) {
+  #slider ul li a {
+    font-size: 50px;
   }
+}
+
+#slider ul li a:hover {
+  text-decoration: underline;
+}
+
+#slider ul #proyectoCasas {
+  background-image: url("../imagenes/black.png"), url("../imagenes/proyectoCasasRurales.png");
+}
+
+#slider ul #gestorTareas {
+  background-image: url("../imagenes/black.png"), url("../imagenes/gestorDeTareas.png");
+}
+
+#slider ul #mastermind {
+  background-image: url("../imagenes/black.png"), url("../imagenes/mastermind.png");
+}
+
+#slider ul #servidor {
+  background-image: url("../imagenes/black.png"), url("../imagenes/servidor.png");
+}
+
+#slider ul #proyectoJava {
+  background-image: url("../imagenes/black.png"), url("../imagenes/proyectoJava.png");
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
 }
 
 aside {
@@ -338,63 +405,4 @@ footer #iconos #github:hover {
 footer #iconos #linkedin:hover {
   color: red;
   opacity: 1;
-}
-
-#slider {
-  position: relative;
-  overflow: hidden;
-  margin: 20px auto 0 auto;
-  border-radius: 4px;
-}
-
-#slider ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: 200px;
-  list-style: none;
-}
-
-#slider ul li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 500px;
-  height: 300px;
-  background: #ccc;
-  text-align: center;
-  line-height: 300px;
-}
-
-a.control_prev, a.control_next {
-  position: absolute;
-  top: 40%;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  background: #2a2a2a;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-a.control_prev:hover, a.control_next:hover {
-  opacity: 1;
-  -webkit-transition: all 0.2s ease;
-}
-
-a.control_prev {
-  border-radius: 0 2px 2px 0;
-}
-
-a.control_next {
-  right: 0;
-  border-radius: 2px 0 0 2px;
 }
