@@ -48,41 +48,41 @@ main {
     cursor: pointer;
 }
 
-#circuloRojo {
+#red {
     background-color: red;
 }
 
-#circuloBlanco {
+#white {
     background-color: white;
     margin-top: 25px;
 }
 
-#circuloNegro {
+#black {
     background-color: black;
     margin-top: 25px;
 }
 
-#circuloAmarillo {
+#yellow {
     background-color: yellow;
     margin-top: 25px;
 }
 
-#circuloNaranja {
+#orange {
     background-color: orange;
     margin-top: 25px;
 }
 
-#circuloMarron {
+#brown {
     background-color: brown;
     margin-top: 25px;
 }
 
-#circuloAzul {
+#blue {
     background-color: blue;
     margin-top: 25px;
 }
 
-#circuloVerde {
+#green {
     background-color: green;
     margin-top: 25px;
 }

@@ -1,71 +1,7 @@
-let contador;
-let contadorLinea;
-let $divIzqda;
-let $circulosRellenar;
-let $circulosComprobar;
-let $pantallaNueva;
+let $circulosComprobar, $circulosRellenar, $divIzqda, $pantallaNueva, contadorLinea;
 
-let aniadirCirculo = function () {
-    for (let i = 0; i < $circulosRellenar.length; i++) {
-        if ($circulosRellenar[i].style.backgroundColor == "" || $circulosRellenar[i].style.backgroundColor == "transparent") {
-            switch (this.id) {
-                case "circuloRojo":
-                    $circulosRellenar[i].style = "background-color: red;";
-                    break;
-
-                case "circuloBlanco":
-                    $circulosRellenar[i].style = "background-color: white;";
-                    break;
-
-                case "circuloNegro":
-                    $circulosRellenar[i].style = "background-color: black;";
-                    break;
-
-                case "circuloVerde":
-                    $circulosRellenar[i].style = "background-color: green;";
-                    break;
-
-                case "circuloAzul":
-                    $circulosRellenar[i].style = "background-color: blue;";
-                    break;
-
-                case "circuloAmarillo":
-                    $circulosRellenar[i].style = "background-color: yellow;";
-                    break;
-
-                case "circuloMarron":
-                    $circulosRellenar[i].style = "background-color: brown;";
-                    break;
-
-                case "circuloNaranja":
-                    $circulosRellenar[i].style = "background-color: orange;";
-                    break;
-            }
-            $circulosRellenar[i].addEventListener("click", quitarColor);
-            contador++;
-            break;
-        }
-    }
-}
-
-/**
-     * Quita el color de un círculo
-     */
-let quitarColor = function () {
-    this.style = "background-color: transparent;";
-    this.removeEventListener("click", quitarColor);
-    contador--;
-    console.log(contador);
-}
-
-/**
- * Elimina los eventos de una línea
- */
 let quitarEventoLineaAnterior = function () {
-    for (let i = 0; i < $circulosRellenar.length; i++) {
-        $circulosRellenar[i].removeEventListener("click", quitarColor);
-        $circulosRellenar[i].style.pointerEvents = "none";
-    }
+    $circulosRellenar.off("click");
 }
 
 let crearNuevaLinea = function () {
@@ -89,50 +25,37 @@ let crearNuevaLinea = function () {
         'margin-bottom': '0px'
     }, 600);
 
-    contador = 0;
     $circulosRellenar = $(".circuloRellenar" + contadorLinea);
     $circulosComprobar = $(".circuloComprobar" + contadorLinea);
+
+    $circulosRellenar.on("click", quitarColor)
 
     contadorLinea++;
 }
 
-/**
-     * Comprueba que los colores seleccionados son los de la secuencia generada aleatoriamente
-     */
+let quitarColor = function () {
+    if (this.style.backgroundColor != "" && this.style.backgroundColor != "transparent") {
+        this.style = "background-color: transparent;";
+    }
+}
+
+let aniadirCirculo = function () {
+    for (let i = 0; i < $circulosRellenar.length; i++) {
+        if ($circulosRellenar[i].style.backgroundColor == "" || $circulosRellenar[i].style.backgroundColor == "transparent") {
+            $circulosRellenar[i].style.backgroundColor = this.id;
+            break;
+        }
+    }
+}
+
 let comprobar = function () {
     let arrayColoresComprobar = [];
     let contador2 = 0;
-
     $circulosRellenar.each(function (indice, circulo) {
-        switch (circulo.style.backgroundColor) {
-            case "red":
-                arrayColoresComprobar.push("rojo");
-                break;
-            case "white":
-                arrayColoresComprobar.push("blanco");
-                break;
-            case "black":
-                arrayColoresComprobar.push("negro");
-                break;
-            case "green":
-                arrayColoresComprobar.push("verde");
-                break;
-            case "blue":
-                arrayColoresComprobar.push("azul");
-                break;
-            case "yellow":
-                arrayColoresComprobar.push("amarillo");
-                break;
-            case "brown":
-                arrayColoresComprobar.push("marron");
-                break;
-            case "orange":
-                arrayColoresComprobar.push("naranja");
-                break;
-        }
+        if (circulo.style.backgroundColor != "" && circulo.style.backgroundColor != "transparent")
+            arrayColoresComprobar.push(circulo.style.backgroundColor);
     });
-
-    if (contador >= 4) {
+    if (arrayColoresComprobar.length >= 4) {
         objetoComprobar = masterMind.comprobar(arrayColoresComprobar);
 
         if (objetoComprobar.enSuSitio > 0) {
@@ -143,9 +66,7 @@ let comprobar = function () {
         }
 
         if (contador2 == 4) {
-            //$pantallaNueva.css("display", "block");
             $pantallaNueva.dialog("open");
-
         }
 
         if (objetoComprobar.esta > 0) {
@@ -161,15 +82,16 @@ let comprobar = function () {
         }
 
         $divIzqda.scrollTop(0);
+
     }
+
 }
 
-let init = function () {
+$(function () {
     masterMind.init();
     masterMind.mostrar();
 
     contadorLinea = 0;
-    contador = 0;
 
     $circulosRellenar = $(".circuloRellenar");
     $circulosComprobar = $(".circuloComprobar");
@@ -209,8 +131,4 @@ let init = function () {
     $("#check").on("click", comprobar);
 
     crearNuevaLinea();
-};
-
-$(function () {
-    init();
-});
+})

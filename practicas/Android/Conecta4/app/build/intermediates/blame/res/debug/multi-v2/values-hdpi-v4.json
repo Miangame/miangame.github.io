@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/miguel/Dropbox/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/miguel/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ce680db3f2d6bc5e9c69fc0c06dcb9f0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/miguel/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ce680db3f2d6bc5e9c69fc0c06dcb9f0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -5,7 +5,7 @@
  */
 
 masterMind = (function () {
-    let colores = ["rojo", "blanco", "negro", "amarillo", "naranja", "marron", "azul", "verde"];
+    let colores = ["red", "white", "black", "yellow", "orange", "brown", "blue", "green"];
 
     let esta;
     let enSuSitio;

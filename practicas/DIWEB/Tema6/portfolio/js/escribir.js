@@ -2,7 +2,7 @@ $(function () {
 
     let texts, back, index, x, count, p, time, div;
     texts = ['Web Developer.         ',
-        " Programmer.          "];
+        " Programmer.         "];
     back = false;
     index = 0;
     count = 0;
@@ -17,19 +17,20 @@ $(function () {
 
                 p.text(p.text() + texts[index][count]);
                 count++;
+
                 if (count == texts[index].length) {
                     clearInterval(x);
                     back = true;
                     if (index == texts.length - 1) {
-                        index = 0
+                        index = 0;
                     } else {
-                        index++
+                        index++;
                     }
                     write();
                 };
 
             } else {
-                time = 150
+                time = 150;
 
                 count--;
                 p.text(p.text().slice(0, count))

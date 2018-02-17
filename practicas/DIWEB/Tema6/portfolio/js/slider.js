@@ -19,7 +19,7 @@ $(function () {
     let moveLeft = function () {
         $('#slider ul').animate({
             left: + slideWidth
-        }, 200, function () {
+        }, 300, function () {
             $('#slider ul li:last-child').prependTo('#slider ul');
             $('#slider ul').css('left', '');
         });
@@ -28,7 +28,7 @@ $(function () {
     let moveRight = function () {
         $('#slider ul').animate({
             left: - slideWidth
-        }, 200, function () {
+        }, 300, function () {
             $('#slider ul li:first-child').appendTo('#slider ul');
             $('#slider ul').css('left', '');
         });

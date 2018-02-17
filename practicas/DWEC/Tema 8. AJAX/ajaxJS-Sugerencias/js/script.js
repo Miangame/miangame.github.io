@@ -3,20 +3,16 @@
     let listaAlumnos;
     let inputBusqueda;
 
-    let muestraContenido = function () {
-        if (peticion.readyState == 4) {
-            if (peticion.status == 200) {
-                console.log(peticion.responseText);
-                
-                listaAlumnos.innerHTML = peticion.responseText;
-            }
-        }
-    }
-
     let cargaContenido = function () {
         peticion = new XMLHttpRequest();
 
-        peticion.onreadystatechange = muestraContenido;
+        peticion.onreadystatechange = function () {
+            if (peticion.readyState == 4) {
+                if (peticion.status == 200) {
+                    listaAlumnos.innerHTML = peticion.responseText;
+                }
+            }
+        };
 
         peticion.open('GET', "alumnos.php", true);
         peticion.send(null);
