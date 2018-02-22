@@ -1,43 +1,43 @@
 [
     {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_out.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\anim\\fab_out.xml"
-    },
-    {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
         "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
         "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_in.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\anim\\snackbar_in.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_exit.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\tooltip_exit.xml"
     },
     {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
         "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/abc_slide_in_top.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/abc_slide_in_top.xml"
     },
     {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
@@ -52,68 +52,72 @@
         "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
         "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/abc_slide_out_top.xml"
     },
     {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_in.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\anim\\snackbar_in.xml"
+    },
+    {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
         "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_out.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\anim\\snackbar_out.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
         "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_in.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\anim\\fab_in.xml"
     },
     {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
         "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/abc_popup_exit.xml"
     },
     {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_out.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\anim\\snackbar_out.xml"
+    },
+    {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_exit.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\tooltip_exit.xml"
-    },
-    {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\77c60df4121a94e24440b1e6759dfa10d87fff3d\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
         "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/tooltip_exit.xml"
     },
     {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_out.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\anim\\fab_out.xml"
+    },
+    {
+        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_enter.xml",
         "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\tooltip_enter.xml"
-    },
-    {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\d52aa834409cf1fb3a56999b7e1d2419878f34a8\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
@@ -122,9 +126,5 @@
     {
         "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
         "source": "/home/miguel/.android/build-cache/e7d467f3af106c7bc31464db0c4d6af232950d12/output/res/anim/tooltip_enter.xml"
-    },
-    {
-        "merged": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\AndroidStudioProjects\\Conecta4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_in.xml",
-        "source": "/home/miguel/MEGA/DAW/miangame.github.io/practicas/Android/Conecta4/C:\\Users\\Miguel\\.android\\build-cache\\3010ee694fe299e3bb1bad9e85acbd09333caa99\\output\\res\\anim\\fab_in.xml"
     }
 ]

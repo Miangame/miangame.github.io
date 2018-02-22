@@ -2,10 +2,12 @@ $(function () {
     let fechaActual = new Date();
     let anioActual = fechaActual.getFullYear();
     let bandera = false;
-    /**
-     * Animación barras de habilidad
-     */
+    let bandera2 = false;
+
     $(window).scroll(function () {
+        /**
+        * Animación barras de habilidad
+        */
         if ($(window).scrollTop() > 400 && !bandera) {
             $(".barra").each(function () {
                 let porcentaje = parseInt($(this).html());
@@ -22,7 +24,20 @@ $(function () {
                 }
             })
         }
+        
+        /**
+         * Desplazamiento contacto
+         */
+        if ($(window).scrollTop() > 2345 && !bandera2) {
+            $("#contactoNombre").css("animation", "desplazarDcha 2s");
+            $("#contactoEmail").css("animation", "desplazarIzqda 2s");
+            $("#contactoMsg").css("animation", "desplazarDcha 2s");
 
+            $("#enviar").animate({
+                opacity: "1"
+            }, 2000);
+            bandera2 = true;
+        }
     });
 
 
@@ -57,6 +72,13 @@ $(function () {
     }
     );
 
+    $("#btnAsideContacto").hover(function () {
+        $("#textoContacto").css("visibility", "visible")
+    }, function () {
+        $("#textoContacto").css("visibility", "hidden")
+    }
+    );
+
     /**
      * Funcionalidad desplazamiento página
      */
@@ -66,7 +88,7 @@ $(function () {
         }, 1000);
     });
 
-    $("#btnAsideSobre").click(function () {
+    $("#downArrow, #btnAsideSobre").click(function () {
         $('html, body').animate({
             scrollTop: $("#sobreMi").offset().top
         }, 1000);
@@ -82,6 +104,42 @@ $(function () {
         $('html, body').animate({
             scrollTop: $("#proyectos").offset().top
         }, 1000);
+    });
+
+    $("#btnAsideContacto").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#contacto").offset().top
+        }, 1000);
+    });
+
+    /**
+     * Efectos formulario de contacto
+     */
+    $("#contactoNombre").on("focus", function () {
+        $("#labelNombre").css("opacity", "1");
+        $("#contactoNombre").removeAttr("placeholder");
+    });
+    $("#contactoNombre").on("blur", function () {
+        $("#labelNombre").css("opacity", "0");
+        $("#contactoNombre").attr("placeholder", "Nombre:");
+    });
+
+    $("#contactoEmail").on("focus", function () {
+        $("#labelEmail").css("opacity", "1");
+        $("#contactoEmail").removeAttr("placeholder");
+    });
+    $("#contactoEmail").on("blur", function () {
+        $("#labelEmail").css("opacity", "0");
+        $("#contactoEmail").attr("placeholder", "Email:");
+    });
+
+    $("#contactoMsg").on("focus", function () {
+        $("#labelMsg").css("opacity", "1");
+        $("#contactoMsg").removeAttr("placeholder");
+    });
+    $("#contactoMsg").on("blur", function () {
+        $("#labelMsg").css("opacity", "0");
+        $("#contactoMsg").attr("placeholder", "Mensaje:");
     });
 
     /**

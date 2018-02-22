@@ -29,12 +29,32 @@ main
         color: #302D2D
         margin: 0 15px
         width: 100%
+        #nombre
+            margin: 0
         #parrafoEscribir
+            margin: 0
             display: flex
             justify-content: center
         @media screen and ($resolucionTablet)
             font: normal normal normal 50px/1.4em 'eb garamond',serif
             margin: 0 15px
+    
+    #downArrow
+        img
+            width: 30px
+            height: 30px
+            animation: animacionFlecha 2s infinite
+            @media screen and ($resolucionTablet)
+                display: none
+
+@keyframes animacionFlecha
+    0%
+        transform: translateY(0px)
+    50%
+        transform: translateY(15px)
+    100%
+        transform: translateY(0px)
+
 
 #header::after
     content: ""
@@ -230,12 +250,92 @@ a.control_next
     right: 0
     border-radius: 2px 0 0 2px
 
+#contacto
+    min-height: 100vh
+    width: 100%
+    background-image: url("../imagenes/degradado.png"), url("../imagenes/contacto.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+    text-align: center
+    #formulario
+        display: flex
+        flex-flow: column
+        align-items: center
+        background-color: rgba(255, 255, 255, 0.55)
+        padding: 20px
+        form
+            width: 70%
+            display: flex
+            flex-flow: column
+            align-items: center
+            @media screen and ($resolucionPc)
+                width: 50%
+
+        input, textarea
+            display: block
+            width: 100%
+            &::placeholder
+                color: black
+                font-size: 20px
+        label
+            margin-top: 10px
+            opacity: 0
+            font-weight: bold
+            font-size: 20px
+            align-self: left
+            transition: all 0.6s
+        textarea
+            resize: none
+        #enviar
+            opacity: 1
+            margin-top: 20px
+            width: 30%
+            height: 5vh
+            background: #e7e7ed
+            border: 1px solid
+            font-weight: bold
+            transition: all 0.5s ease
+            @media screen and ($resolucionTablet)
+                opacity: 0
+            &:hover
+                cursor: pointer
+                background: #d5d5d8
+    h2
+        font: normal normal normal 42px/1.4em sans-serif
+        font-weight: bold
+        color: $primaryColor
+        @media screen and ($resolucionTablet)
+                font: normal normal normal 80px/1.4em sans-serif
+
+@keyframes desplazarIzqda
+    0%
+        transform: translateX(150%)
+    100%
+        transform: translateX(0%)
+
+@keyframes desplazarDcha
+    0%
+        transform: translateX(-150%)
+    100%
+        transform: translateX(0%)
+
+.formControl
+    margin-top: 20px
+    border-width: 0 0 2px 0
+    border-style: none none solid none
+    border-color: black
+    box-shadow: none
+    background: transparent
+    &:focus
+        outline: none
+        border-color: brown
+
 aside
     display: none
     @media screen and ($resolucionTablet)
         display: block
         position: fixed
-        top: 40vh
+        top: 35vh
         right: 0
         .lineaAside
             display: flex
@@ -263,18 +363,10 @@ footer
     text-align: center
     height: 200px
     width: 100%
-    margin-top: 50px
     p 
         color: #fff
         margin: 25px 5px 0px
         padding-top: 20px
-    
-    #correo
-        text-decoration: none
-        margin-top: 15px 
-        color: white
-        &:hover
-            text-decoration: underline
 
     #iconos 
         margin: auto

@@ -27,13 +27,15 @@
             Hola<span class="signo">;</span>
         </p>
         <h1>
-            <p>
+            <p id="nombre">
                 Soy Miguel Ángel Gavilán Merino<span class="signo punto">.</span>
             </p>
             <p id="parrafoEscribir">
                 <span id="escribir" class="write"></span>
             </p>
         </h1>
+        <p><a id="downArrow" href="#"><img src="imagenes/down-arrow.svg" alt=""></a></p>
+        
     </div>
 
     <main>
@@ -66,7 +68,7 @@
                     <p>
                         <img src="imagenes/php.svg" alt="">
                     </p>
-                    <div class="barra">95%</div>
+                    <div class="barra">90%</div>
                 </div>
 
                 <div class="habilidad">
@@ -120,6 +122,24 @@
             </div>
 
         </div>
+
+        <div id="contacto">
+            <h2>Contacta conmigo</h2>
+
+            <div id="formulario">
+                <form action="" method="POST">
+                    <label for="contactoNombre" id="labelNombre">Nombre:</label>
+                    <input class="formControl" type="text" name="contactoNombre" id="contactoNombre" placeholder="Nombre" required>
+                    <label for="contactoEmail" id="labelEmail">Email:</label>
+                    <input class="formControl" type="email" name="contactoEmail" id="contactoEmail" placeholder="Email" required>
+                    <label for="contactoMsg" id="labelMsg">Mensaje:</label>
+                    <textarea class="formControl" name="contactoMsg" id="contactoMsg" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+    
+                    <input id="enviar" type="submit">
+                </form>
+            </div>
+            
+        </div>
     </main>
 
     <aside>
@@ -149,6 +169,12 @@
             </div>
             <p class="textoAside" id="textoProyectos">Mis proyectos</p>
         </div>
+        <div class="lineaAside">
+            <div class="btnAside" id="btnAsideContacto">
+                <a href="#contacto"></a>
+            </div>
+            <p class="textoAside" id="textoContacto">Contacto</p>
+        </div>
     </aside>
 
     <footer>
@@ -156,7 +182,6 @@
             ·
             <span id="fecha"></span> &copy; Miguel Ángel Gavilán Merino ·
         </p>
-        <a id="correo" href="mailto:miangame1@gmail.com">miangame1@gmail.com</a>
         <div id="iconos">
             <a href="https://twitter.com/miguel5gavilan" id="twitter" class="fa fa-twitter-square fa-3x" target="_blank"></a>
             <a href="https://www.facebook.com/miguel.gavilanmerino" id="facebook" class="fa fa-facebook-square fa-3x" target="_blank"></a>

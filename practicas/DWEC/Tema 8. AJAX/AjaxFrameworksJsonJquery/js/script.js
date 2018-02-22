@@ -12,9 +12,9 @@ $(function () {
     });
 
     let cargarDatos = function (data) {
-        $titulo.html(data.nombre);
-        $titulo.attr("href", data.url);
-        $titulo.css("border-bottom", "3px solid blue");
+        $titulo.html(data.nombre)
+            .attr("href", data.url)
+            .css("border-bottom", "3px solid blue");
         $("img").attr("src", data.imagen)
         $("#descripcion").html(data.descripcion);
     };

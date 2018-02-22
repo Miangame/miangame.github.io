@@ -25,18 +25,16 @@ let crearNuevaLinea = function () {
         'margin-bottom': '0px'
     }, 600);
 
-    $circulosRellenar = $(".circuloRellenar" + contadorLinea);
-    $circulosComprobar = $(".circuloComprobar" + contadorLinea);
+    $circulosRellenar = $(".circuloRellenar" + contadorLinea)
+        .on("click", quitarColor);
 
-    $circulosRellenar.on("click", quitarColor)
+    $circulosComprobar = $(".circuloComprobar" + contadorLinea);
 
     contadorLinea++;
 }
 
 let quitarColor = function () {
-    if (this.style.backgroundColor != "" && this.style.backgroundColor != "transparent") {
-        this.style = "background-color: transparent;";
-    }
+    $(this).css("backgroundColor", "transparent");
 }
 
 let aniadirCirculo = function () {
@@ -67,6 +65,7 @@ let comprobar = function () {
 
         if (contador2 == 4) {
             $pantallaNueva.dialog("open");
+            return;
         }
 
         if (objetoComprobar.esta > 0) {
