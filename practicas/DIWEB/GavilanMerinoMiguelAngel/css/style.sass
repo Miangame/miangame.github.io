@@ -1,0 +1,198 @@
+$primaryColor: #F44336
+$secondaryColor: #005CB2
+$secondaryBackgroundColor: #6AB7FF
+$accentColor: #1E88E5
+$colorFont: #000305
+$resolucionPc: "min-width: 1200px"
+$resolucionTablet: "min-width: 830px"
+
+@font-face
+    font-family: roboto
+    src: url("../fonts/Roboto-Regular-webfont.eot"), url("../fonts/Roboto-Regular-webfont.svg"), url("../fonts/Roboto-Regular-webfont.ttf"), url("../fonts/Roboto-Regular-webfont.woff")
+
+@font-face 
+    font-family: 'Sosa'
+    src: url('../fonts/sosa-regular-webfont.eot')
+    src: url('../fonts/sosa-regular-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/sosa-regular-webfont.ttf') format('truetype'),url('../fonts/sosa-regular-webfont.svg#sosa') format('svg')
+    font-weight: normal
+    font-style: normal
+
+*
+    font-family: roboto
+
+body
+    margin: 0 26px 26px
+    &:after
+        content: ""
+        background-image: url("../img/header.jpg")
+        background-repeat: no-repeat
+        background-size: cover
+        opacity: 0.8
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        position: fixed
+        z-index: -1
+
+header
+    height: 100vh
+    display: flex
+    flex-flow: column
+    align-items: center
+    justify-content: center
+    text-align: center
+    background-color: rgba(10, 9, 9, 0.5)
+    color: #FFF
+    transition: all 3s
+    &:hover
+        transform: rotateY(360deg)
+
+    h1
+        font-size: 30px
+        @media screen and ($resolucionTablet)
+            font-size: 50px
+        @media screen and ($resolucionPc)
+            font-size: 80px
+    #redesSociales
+        text-decoration: none
+        span
+            font-size: 30px
+            color: $secondaryBackgroundColor
+            @media screen and ($resolucionTablet)
+                font-size: 50px
+            @media screen and ($resolucionPc)
+                font-size: 80px
+
+nav
+    background-color: $primaryColor
+    width: 100%
+    text-align: center
+    margin-top: 10px
+    box-shadow: 0 1px 3px #FFF, 0 1px 2px #FFF
+    ul
+        margin: 0
+        padding: 0
+        li
+            height: 30px
+            list-style: none
+            display: flex
+            align-items: center
+            justify-content: center
+            align-content: center
+            &:hover
+                background-color: #FFF
+            a
+                text-decoration: none
+                color: #FFF
+                &:hover
+                    color: $primaryColor
+    @media screen and ($resolucionTablet)
+        text-align: left
+        height: 40px
+        ul
+            height: 100%
+            display: flex
+            align-content: center
+            align-items: center
+            li
+                display: flex
+                height: 100%
+                padding: 0 20px
+                &:hover
+                    background-color: #FFF
+
+#contenidoPrincipal
+    display: flex
+    flex-flow: column-reverse
+    @media screen and ($resolucionTablet)
+        display: flex
+        flex-flow: column
+    @media screen and ($resolucionPc)
+        display: grid
+        grid-template-columns: 70% 30%
+        
+main
+    grid-area: "main"
+    section
+        width: 100%
+        display: flex
+        flex-flow: column
+        article
+            background-color: #FFF
+            padding: 20px
+            margin: 10px 0px
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+            transition: all 1s
+            &:hover
+                transform: rotateX(40deg)
+                transform-origin: center
+                box-shadow: 0 5px 40px #000
+                @media screen and ($resolucionTablet)
+                    h2
+                        transform: rotateX(360deg)
+                @media screen and ($resolucionPc)
+                    transform: rotateZ(40deg)
+                    transform-origin: 20% 40%
+            h2
+                color: $primaryColor
+                transition: all 1.5s
+                    
+            h4
+                display: none
+                color: $primaryColor
+                font-size: 10px
+                @media screen and ($resolucionTablet)
+                    display: block
+        @media screen and ($resolucionTablet)
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            grid-gap: 10px
+        @media screen and ($resolucionTablet)
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            grid-gap: 10px
+
+@keyframes boteTitulo
+    0%
+        transform: translateY(0px)
+    25%
+        transform: translateY(15px)
+    50%
+        transform: translateY(0px)
+    75%
+        transform: translateY(25px)
+    100%
+        transform: translateY(0px)
+
+aside
+    article
+        background-color: #FFF
+        padding: 20px
+        margin: 10px 0px
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+        transition: all 3s
+        &:hover
+            transform: rotateX(-40deg)
+            transform-origin: top
+            box-shadow: 0 5px 40px #000
+            color: $secondaryColor
+            @media screen and ($resolucionPc)
+                h2
+                    animation: boteTitulo .3s
+                    animation-iteration-count: 5
+        h2
+            color: $secondaryColor
+    #botAside
+        display: none
+        @media screen and ($resolucionPc)
+            display: block
+    @media screen and ($resolucionPc)
+        margin-left: 10px
+        
+footer
+    background-color: #FFF
+    padding: 8px 20px
+    a
+        text-decoration: none
+        color: $primaryColor
