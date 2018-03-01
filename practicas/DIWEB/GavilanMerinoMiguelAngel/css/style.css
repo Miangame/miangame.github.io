@@ -43,10 +43,7 @@ header {
   background-color: rgba(10, 9, 9, 0.5);
   color: #FFF;
   transition: all 3s;
-}
-
-header:hover {
-  transform: rotateY(360deg);
+  animation: animacionCabecera 2s;
 }
 
 header h1 {
@@ -74,6 +71,10 @@ header #redesSociales span {
   color: #6AB7FF;
 }
 
+header #redesSociales span:hover {
+  transform: rotateX(360deg), rotateZ(-360deg);
+}
+
 @media screen and (min-width: 830px) {
   header #redesSociales span {
     font-size: 50px;
@@ -83,6 +84,18 @@ header #redesSociales span {
 @media screen and (min-width: 1200px) {
   header #redesSociales span {
     font-size: 80px;
+  }
+}
+
+@keyframes animacionCabecera {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
   }
 }
 
@@ -163,6 +176,7 @@ nav ul li a:hover {
 
 main {
   grid-area: "main";
+  margin-top: 10px;
 }
 
 main section {
@@ -174,9 +188,10 @@ main section {
 main section article {
   background-color: #FFF;
   padding: 20px;
-  margin: 10px 0px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 1s;
+  text-align: justify;
+  line-height: 25px;
 }
 
 main section article:hover {
@@ -223,7 +238,7 @@ main section article h4 {
   }
 }
 
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 1200px) {
   main section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -255,6 +270,8 @@ aside article {
   margin: 10px 0px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 3s;
+  text-align: justify;
+  line-height: 25px;
 }
 
 aside article:hover {
@@ -292,6 +309,7 @@ aside #botAside {
 }
 
 footer {
+  margin-top: 10px;
   background-color: #FFF;
   padding: 8px 20px;
 }
